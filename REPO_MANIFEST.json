@@ -1,0 +1,83 @@
+{
+  "repository": "quantum-safe-space-communications",
+  "organization": "Bridge-Node-7",
+  "target_url": "https://github.com/Bridge-Node-7/quantum-safe-space-communications",
+  "version": "v0.1.5",
+  "generated_date": "2026-06-19",
+  "public_safety_status": "GREEN_WITH_RELEASE_REVIEW",
+  "review_artifact": "RELEASE_REVIEW.md",
+  "maturity_scope": "Documentation and migration-planning foundation; no certification, authorization, endorsement, or operational validation claim",
+  "file_count": 22,
+  "module_map": {
+    "assessment/quantum-safe-space-communications-assessment.md": {
+      "purpose": "Primary assessment workflow for quantum-safe space communications readiness.",
+      "when_to_use": "Start here to understand the full assessment flow.",
+      "output": "Assessment scope and decision package outline"
+    },
+    "assessment/crypto-inventory-template.md": {
+      "purpose": "Inventory cryptographic dependencies across links, systems, vendors, and update paths.",
+      "when_to_use": "Use before making any readiness or migration claim.",
+      "output": "Crypto dependency register"
+    },
+    "assessment/readiness-index.md": {
+      "purpose": "Score readiness from Unknown to Quantum-Safe Architecture.",
+      "when_to_use": "Use after initial inventory and evidence collection.",
+      "output": "Evidence-backed readiness level"
+    },
+    "assessment/space-link-risk-matrix.md": {
+      "purpose": "Score risk across communication links and mission functions.",
+      "when_to_use": "Use to prioritize which links or paths need action first.",
+      "output": "Link-level risk matrix"
+    },
+    "assessment/vendor-questionnaire.md": {
+      "purpose": "Ask vendors about cryptographic dependencies and PQC readiness.",
+      "when_to_use": "Use when vendor-managed systems or components are in scope.",
+      "output": "Vendor evidence gap list"
+    },
+    "frameworks/pqc-migration-roadmap.md": {
+      "purpose": "Plan post-quantum migration from governance through pilots and long-term crypto agility.",
+      "when_to_use": "Use after inventory and risk scoring.",
+      "output": "Migration roadmap"
+    },
+    "briefings/90-day-action-plan-template.md": {
+      "purpose": "Convert assessment findings into near-term execution.",
+      "when_to_use": "Use after top risks and owners are identified.",
+      "output": "90-day action plan"
+    },
+    "assessment/executive-brief-template.md": {
+      "purpose": "Prepare decision-ready executive materials.",
+      "when_to_use": "Use when leadership needs funding, prioritization, or risk acceptance decisions.",
+      "output": "Executive brief"
+    },
+    "examples/sample-smallsat-operator-assessment.md": {
+      "purpose": "Show a fictional public-safe example.",
+      "when_to_use": "Use for onboarding, demonstration, or template familiarization.",
+      "output": "Example only"
+    }
+  },
+  "files": [
+    ".gitignore",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "DISCLAIMER.md",
+    "LICENSE",
+    "README.md",
+    "RELEASE_REVIEW.md",
+    "REPO_MANIFEST.json",
+    "SECURITY.md",
+    "assessment/crypto-inventory-template.md",
+    "assessment/executive-brief-template.md",
+    "assessment/quantum-safe-space-communications-assessment.md",
+    "assessment/readiness-index.md",
+    "assessment/space-link-risk-matrix.md",
+    "assessment/vendor-questionnaire.md",
+    "briefings/90-day-action-plan-template.md",
+    "docs/glossary.md",
+    "docs/methodology.md",
+    "docs/references.md",
+    "examples/sample-smallsat-operator-assessment.md",
+    "frameworks/pqc-migration-roadmap.md"
+  ],
+  "publication_decision": "GREEN_FOR_PUBLIC_RELEASE"
+}

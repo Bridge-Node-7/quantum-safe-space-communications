@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Quantum-Safe Space Communications"
+message: "If you use this repository, please cite it using the metadata from this file."
+type: software
+version: 0.1.5
+authors:
+  - name: "Bridge Node 7"
+date-released: "2026-06-19"
+license: MIT
+url: "https://github.com/Bridge-Node-7/quantum-safe-space-communications"
+abstract: "Public-safe assessment and migration-planning templates for post-quantum cryptography readiness in space communications."
