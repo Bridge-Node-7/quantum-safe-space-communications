@@ -1,0 +1,10 @@
+{
+  "exceptions": [
+    {
+      "url": "https://www.cisa.gov/resources-tools/resources/product-categories-technologies-use-post-quantum-cryptography-standards",
+      "reason": "Official CISA resource is publicly indexed and current but may return HTTP 403 to automated validators; existence was independently verified through CISA search and announcement pages.",
+      "verified_on": "2026-08-04",
+      "owner": "Bridge Node 7 standards review"
+    }
+  ]
+}

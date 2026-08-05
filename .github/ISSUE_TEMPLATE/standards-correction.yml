@@ -1,0 +1,23 @@
+name: Standards correction
+description: Report an incorrect status, edition, applicability statement, or official link.
+title: "[Standards] "
+labels: [standards]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Affected register entry
+    validations:
+      required: true
+  - type: input
+    id: official_source
+    attributes:
+      label: Official primary source
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Required correction and rationale
+    validations:
+      required: true

@@ -1,200 +1,113 @@
-# Quantum-Safe Space Communications
+# Quantum Readiness for Space Communications
 
-**Public-safe assessment and migration-planning templates for post-quantum cryptography readiness in space communications.**
+Evidence-based assessment and migration-planning framework for post-quantum cryptography across spacecraft, satellite links, ground systems, mission operations, and supporting vendors.
 
-## Mission
+## Status
 
-Long-lived space communications systems depend on cryptography that may need to survive for years or decades. Post-quantum cryptography migration is not only an algorithm swap; it requires inventory, ownership, testing, vendor engagement, risk scoring, and clear executive decisions.
+**Source candidate validated. Live GitHub publication remains pending until the staged release controller completes its public read-back and final seal.**
 
-**Quantum-Safe Space Communications** helps teams:
+Version 0.2.0 is documentation-first. It retires the invalid weighted readiness aggregate and compensating average risk method published in version 0.1.5. It does not contain an automated assessment engine, cryptographic implementation, or workbook decision calculator.
 
-- Map space communications links and cryptographic dependencies
-- Identify RSA, ECC, Diffie-Hellman, certificate, signing, and key-management exposure
-- Score quantum-era risk using evidence, not assumptions
-- Prioritize command authentication, firmware signing, secure boot, and key management
-- Plan migration toward NIST-standardized post-quantum cryptography
-- Evaluate whether QKD or QRNG concepts are mission-relevant without treating them as universal replacements for PQC
-- Produce executive-ready decision materials
+## Who It Is For
 
-## What This Is
+- Satellite and spacecraft operators
+- Ground-station providers
+- Mission operations teams
+- Space cybersecurity and mission-assurance teams
+- Vendors and systems integrators
+- Government and defense programs
+- Procurement and program-management teams
+- Technical assessors and reviewers
 
-A defensive governance and assessment toolkit for satellite operators, smallsat teams, ground-station providers, aerospace cybersecurity teams, research programs, space-data organizations, product teams, and reviewers preparing for quantum-era cybersecurity risk.
+## What the Framework Produces
 
-This repository focuses on **post-quantum readiness, cryptographic visibility, migration planning, evidence, and ownership**.
+The **Quantum Readiness Decision Pack** brings together four separate decision inputs:
 
-This toolkit is **Quantum-Safe Space Communications**. Its primary assessment instrument is the **Quantum-Safe Space Communications Security Assessment**.
+1. **Quantum Exposure Severity**, where higher severity means greater concern and `Unknown / Not Assessed` remains distinct from `Not Applicable`.
+2. **Migration Readiness Profile**, where higher stages mean stronger demonstrated capability across ten non-compensating domains.
+3. **Evidence Confidence and Coverage**, which records support strength, provenance, currency, conflicts, exclusions, and unassessed critical scope.
+4. **Critical Risk Overrides**, which cannot be canceled by progress elsewhere.
 
-## What This Is Not
+The final package also records ownership, actions, standards applicability, limitations, decisions, approvals, and review history.
 
-This repository does **not** certify that any system is quantum-safe.
+## Canonical Quick Start
 
-It does **not** provide cryptographic implementations, operational testing authority, exploit instructions, live-system targeting guidance, private mission data, regulated technical data, or production deployment approval.
+1. [Define scope](assessment/quantum-readiness-space-communications-assessment.md).
+2. [Map systems and links](assessment/link-map-template.md).
+3. [Inventory cryptography](assessment/crypto-inventory-template.md).
+4. [Record exposure](assessment/quantum-exposure-severity.md).
+5. [Profile migration readiness](assessment/migration-readiness-profile.md).
+6. [Record evidence confidence and coverage](assessment/evidence-confidence-ledger.md).
+7. [Review critical conditions](assessment/critical-risk-overrides.md).
+8. [Assign ownership and actions](assessment/ownership-matrix-template.md).
+9. [Assemble the Quantum Readiness Decision Pack](decision-pack/README.md).
+10. [Review the complete fictional example](examples/sample-small-satellite-decision-pack/README.md).
 
-It is a documentation and workflow foundation for defensive assessment and planning.
+Start with inventory. Do not make a favorable exposure or readiness statement before the relevant systems, cryptography, owners, and evidence are in scope.
 
-## Quick Start
+## Decision-Support Postures
 
-Start with the assessment, then build the evidence package.
+These human-governed postures support planning only:
 
-1. Read `assessment/quantum-safe-space-communications-assessment.md`.
-2. Use `assessment/crypto-inventory-template.md` to find cryptographic dependencies.
-3. Use `assessment/vendor-questionnaire.md` to collect vendor evidence.
-4. Use `assessment/readiness-index.md` to score current readiness.
-5. Use `assessment/space-link-risk-matrix.md` to prioritize link-level risk.
-6. Use `frameworks/pqc-migration-roadmap.md` to plan migration.
-7. Use `briefings/90-day-action-plan-template.md` to turn findings into action.
-8. Use `assessment/executive-brief-template.md` to prepare the decision package.
-9. Review `examples/sample-smallsat-operator-assessment.md` for a fictional example.
+- **Assessment Incomplete**
+- **Evidence Required**
+- **Critical Action Required**
+- **Executive Decision Required**
+- **Ready for Governed Migration**
 
-**First action for most users:** open `assessment/crypto-inventory-template.md` and identify where cryptography is used before making any readiness claim.
+`Not Applicable` is an applicability determination, not a decision-support posture. It requires sufficient evidence and an accountable scope decision.
 
-## Assessment Flow
-
-```text
-Communications Inventory
-        |
-Cryptographic Dependency Map
-        |
-Quantum Exposure Assessment
-        |
-PQC Migration Readiness
-        |
-QKD / QRNG Feasibility
-        |
-Governance and Ownership
-        |
-Executive Decision Package
-```
+The postures are not certification, compliance determination, deployment approval, flight qualification, operational authorization, or proof that a system is quantum-safe.
 
 ## Repository Structure
 
 ```text
-quantum-safe-space-communications/
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── DISCLAIMER.md
-├── SECURITY.md
-├── RELEASE_REVIEW.md
-├── REPO_MANIFEST.json
-├── assessment/
-│   ├── crypto-inventory-template.md
-│   ├── executive-brief-template.md
-│   ├── quantum-safe-space-communications-assessment.md
-│   ├── readiness-index.md
-│   ├── space-link-risk-matrix.md
-│   └── vendor-questionnaire.md
-├── briefings/
-│   └── 90-day-action-plan-template.md
-├── docs/
-│   ├── glossary.md
-│   ├── methodology.md
-│   └── references.md
-├── examples/
-│   └── sample-smallsat-operator-assessment.md
-└── frameworks/
-    └── pqc-migration-roadmap.md
+quantum-readiness-space-communications/
+├── assessment/       Assessment instruments and historical compatibility pointers
+├── briefings/        Action-planning templates
+├── decision-pack/    Quantum Readiness Decision Pack assembly guidance
+├── docs/             Methodology, evidence, standards, limits, and reading paths
+├── examples/         Complete fictional Decision Pack
+├── frameworks/       Migration roadmap
+├── release/          Release metadata, settings checklist, and seal templates
+├── tests/            Positive and adversarial methodology tests
+└── tools/            Repository, link, boundary, manifest, and packaging validators
 ```
 
-## Core Modules
+## Validate the Source Candidate
 
-### 1. Assessment
+```bash
+python -m pip install -r requirements-validation.txt
+bash scripts/validate.sh
+```
 
-`assessment/quantum-safe-space-communications-assessment.md`
+Windows PowerShell:
 
-Defines the full assessment flow: communications inventory, cryptographic dependency mapping, quantum exposure assessment, PQC migration readiness, QKD / QRNG feasibility, governance, and executive decision package.
+```powershell
+python -m pip install -r requirements-validation.txt
+powershell -ExecutionPolicy Bypass -File scripts/validate.ps1
+```
 
-### 2. Crypto Inventory
+Network checks are enabled in hosted CI. To run them locally:
 
-`assessment/crypto-inventory-template.md`
+```bash
+VALIDATE_NETWORK=1 bash scripts/validate.sh
+```
 
-Captures where cryptography lives across communication links, command paths, certificates, firmware signing, secure boot, key management, vendors, and update paths.
+The validators enforce repository and methodology boundaries. They do not calculate an assessment outcome.
 
-### 3. Readiness Index
+## Publicly Distributable Use
 
-`assessment/readiness-index.md`
+For this repository, **publicly distributable** means content approved for unrestricted public release after privacy, security, export-control, contractual, and mission-sensitivity review. Use fictional or explicitly authorized information only. Do not publish credentials, keys, tokens, controlled technical data, real mission architecture, sensitive hostnames, private vendor responses, customer information, or security weaknesses that could enable targeting.
 
-Provides a 0 to 5 evidence-based readiness model from Unknown to Quantum-Safe Architecture.
+Read the [Documentation Index](docs/README.md), [SECURITY.md](SECURITY.md), [DISCLAIMER.md](DISCLAIMER.md), [Known Limitations](KNOWN_LIMITATIONS.md), [Public Claim Boundaries](docs/public-claim-boundaries.md), and [Accessibility and Mobile Use](docs/accessibility-and-mobile-use.md).
 
-### 4. Link Risk Matrix
+## Release Strategy
 
-`assessment/space-link-risk-matrix.md`
-
-Scores link-level risk across command, telemetry, mission data, inter-satellite, ground-station, cloud, vendor, and update paths.
-
-### 5. PQC Migration Roadmap
-
-`frameworks/pqc-migration-roadmap.md`
-
-Defines a practical migration path from inventory to governance, pilots, procurement requirements, vendor engagement, and long-term crypto agility.
-
-### 6. Executive Brief
-
-`assessment/executive-brief-template.md`
-
-Turns technical findings into decision-ready executive materials.
-
-### 7. Vendor Questionnaire
-
-`assessment/vendor-questionnaire.md`
-
-Helps teams ask vendors about cryptographic dependencies, PQC readiness, hybrid modes, certificates, signing, update paths, and evidence.
-
-### 8. Example Assessment
-
-`examples/sample-smallsat-operator-assessment.md`
-
-Shows the framework applied to a fictional smallsat operator with no real mission or customer data.
-
-## Technical Reference Points
-
-This repository aligns to public guidance and standards around:
-
-- NIST FIPS 203: ML-KEM
-- NIST FIPS 204: ML-DSA
-- NIST FIPS 205: SLH-DSA
-- NIST and CISA post-quantum migration guidance
-- CCSDS space data link security references
-- crypto-agility, cryptographic inventory, and evidence-based migration planning
-
-See `docs/references.md`.
-
-## Public-Safe Use
-
-Use fictional examples unless you have explicit permission to publish real information.
-
-Do not publish:
-
-- credentials
-- private keys
-- tokens
-- real mission data
-- regulated or controlled technical data
-- sensitive architecture diagrams
-- internal hostnames or IP addresses
-- proprietary vendor disclosures
-- customer or partner data
-
-## Release Evidence
-
-This release includes `RELEASE_REVIEW.md`, a self-review using public-safety, claim-scoping, and UX criteria.
-
-The review is a self-assessment, not an independent audit.
+The direct documentation-first v0.2.0 release supersedes the interim v0.1.6 containment plan because the complete corrected methodology is being prepared for immediate controlled execution. The original v0.1.5 tag and assets remain preserved and receive a visible supersession notice. See [Release Strategy Decision](release/release-strategy-decision.md).
 
 ## License
 
-MIT License. See `LICENSE`.
+MIT License. See [LICENSE](LICENSE).
 
-## Security
-
-See `SECURITY.md` before reporting security issues or submitting security-sensitive material.
-
-## Disclaimer
-
-See `DISCLAIMER.md`. This repository is for defensive assessment and planning only.
-
----
-
-**Bridge Node 7: public-safe frameworks for evidence-based technology readiness.**
+Bridge Node 7: evidence-first methods for trusted frontier translation.

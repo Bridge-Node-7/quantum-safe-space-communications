@@ -1,60 +1,34 @@
-# Quantum-Safe Space Communications Vendor Questionnaire
+# Vendor Post-Quantum Migration Questionnaire
 
-## Purpose
+Request evidence for the exact product, build, service, component, and support period in scope.
 
-This questionnaire helps assess vendor exposure to quantum-era cybersecurity risk in space communications systems.
+## Product and implementation
 
-## Vendor Identity
+1. Product, service, hardware, firmware, and build identifiers
+2. Supported algorithms and parameter sets
+3. Protocol versions and profiles
+4. Cryptographic libraries, modules, and hardware boundaries
+5. Validation certificates and applicable limitations
+6. Software bill of materials and relevant dependencies
+7. Entropy source and key-generation design
 
-- Vendor name:
-- Product or service:
-- Space system supported:
-- Mission dependency:
-- Contact owner:
-- Internal vendor owner:
+## Migration and interoperability
 
-## Cryptographic Dependencies
+8. Supported PQC and hybrid modes
+9. Downgrade prevention
+10. Interoperability and performance test results
+11. Crypto-agility and configuration-change mechanisms
+12. Secure update, rollback, recovery, and anti-rollback behavior
+13. Legacy decommissioning and dual-stack exit criteria
 
-- What cryptographic algorithms are used?
-- Is RSA used?
-- Is elliptic-curve cryptography used?
-- What key exchange methods are used?
-- What digital signature schemes are used?
-- What encryption is used for data in transit?
-- What encryption is used for data at rest?
-- Are certificates used?
-- What are the certificate lifetimes?
-- Who manages the certificate authority?
-- Are cryptographic libraries internally developed or third-party?
+## Assurance and lifecycle
 
-## Post-Quantum Readiness
+14. Side-channel and implementation-assurance evidence
+15. Vulnerability disclosure process and patch service level
+16. Product support and end-of-support dates
+17. Supply-chain provenance and critical dependencies
+18. Migration milestones, blockers, and committed dates
+19. Evidence attachments and integrity references
+20. Named authorized attestation, date, and exceptions
 
-- Does the vendor have a PQC migration roadmap?
-- Does the product support crypto-agility?
-- Can algorithms be replaced without hardware replacement?
-- Does the vendor support hybrid classical/PQC modes?
-- Has the vendor tested NIST-standardized PQC algorithms?
-- What is the timeline for PQC support?
-- What systems cannot be upgraded?
-- What is the vendor's plan for legacy systems?
-
-## Space-Specific Constraints
-
-- Is the product used in flight, ground, or both?
-- Is the product radiation-hardened?
-- Can firmware be updated after deployment?
-- Can keys be rotated remotely?
-- What are the SWaP constraints?
-- What is the expected operational lifetime?
-- What mission-critical links depend on this product?
-
-## Evidence Requested
-
-- Cryptographic architecture document
-- PQC roadmap
-- Software bill of materials
-- Hardware bill of materials
-- Firmware update procedure
-- Key-management procedure
-- Supply-chain assurance documentation
-- Incident response process
+Record each response in the Evidence Confidence Ledger. Vendor self-attestation is not independent evidence.

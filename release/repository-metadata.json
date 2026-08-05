@@ -1,0 +1,16 @@
+{
+  "name": "quantum-readiness-space-communications",
+  "title": "Quantum Readiness for Space Communications",
+  "description": "Evidence-based assessment and migration-planning framework for post-quantum cryptography across spacecraft, satellite links, ground systems, mission operations, and supporting vendors.",
+  "homepage": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications",
+  "topics": [
+    "post-quantum-cryptography",
+    "space-communications",
+    "quantum-readiness",
+    "crypto-agility",
+    "mission-assurance",
+    "cybersecurity",
+    "decision-support"
+  ],
+  "default_branch": "main"
+}

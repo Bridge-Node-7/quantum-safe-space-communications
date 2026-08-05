@@ -1,0 +1,9 @@
+{
+  "name": "quantum-readiness-space-communications",
+  "title": "Quantum Readiness for Space Communications",
+  "version": "0.2.0",
+  "release_date": "2026-08-05",
+  "description": "Evidence-based assessment and migration-planning framework for post-quantum cryptography across spacecraft, satellite links, ground systems, mission operations, and supporting vendors.",
+  "decision_pack_name": "Quantum Readiness Decision Pack",
+  "baseline_sha": "4c53bb214695bad829f71c74bb2f8563a4aa3b29"
+}
