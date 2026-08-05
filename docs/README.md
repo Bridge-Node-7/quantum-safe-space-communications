@@ -5,7 +5,6 @@ Use this index to move from orientation to assessment, review, and repository va
 ## Start Here
 
 - [Repository overview and quick start](../README.md)
-- [AI Agent Guide](../AGENTS.md)
 - [Methodology overview](methodology.md)
 - [Assessor guide](assessor-guide.md)
 - [Role-based reading paths](role-based-reading-paths.md)

@@ -7,7 +7,7 @@ Version 0.2.2 improves public onboarding and repository self-consistency without
 It:
 
 - rewrites the README around practical use rather than release history;
-- adds a zero-context AI Agent Guide;
+- provides audience-neutral navigation that works without prior context;
 - makes the fictional Decision Pack the recommended first example;
 - simplifies the repository scope statement;
 - aligns version, citation, release, review, package-prefix, manifest, and checksum records;

@@ -43,14 +43,6 @@
 3. [90-day action plan](../briefings/90-day-action-plan-template.md)
 4. [Standards register](standards-register.md)
 
-## AI Agent
-
-1. [AI Agent Guide](../AGENTS.md)
-2. [README](../README.md)
-3. [Methodology](methodology.md)
-4. [Decision Pack guide](../decision-pack/README.md)
-5. [Fictional Decision Pack](../examples/sample-small-satellite-decision-pack/README.md)
-
 ## Repository Maintainer
 
 1. [Governance](../GOVERNANCE.md)

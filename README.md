@@ -14,7 +14,6 @@ It is documentation-first. It provides methods, templates, examples, and validat
 | Begin an assessment | [Assessment Overview](assessment/quantum-readiness-space-communications-assessment.md) | [Assessor Guide](docs/assessor-guide.md) |
 | Build the final deliverable | [Decision Pack Guide](decision-pack/README.md) | [Decision Summary Template](decision-pack/decision-summary-template.md) |
 | Review technical context | [Quantum-Cryptography Foundations](docs/quantum-cryptography-foundations.md) | [Standards Register](docs/standards-register.md) |
-| Use the repository with an AI agent | [AI Agent Guide](AGENTS.md) | [Documentation Index](docs/README.md) |
 | Validate a repository change | [Validation](#validate-the-repository) | [Methodology Integrity](docs/methodology-integrity.md) |
 
 For a first review, open the fictional Decision Pack before filling in a blank template. It shows the expected structure, evidence links, unknowns, critical conditions, actions, limitations, and decision record.
@@ -77,23 +76,7 @@ These human-governed postures support planning only:
 
 The postures are not certification, compliance determination, deployment approval, flight qualification, operational authorization, or proof that a system is quantum-safe.
 
-## For AI Agents
-
-An AI agent starting from zero should follow this order:
-
-1. Read this README, [AGENTS.md](AGENTS.md), the [Documentation Index](docs/README.md), [Methodology](docs/methodology.md), and [Known Limitations](KNOWN_LIMITATIONS.md).
-2. Review the [fictional Decision Pack](examples/sample-small-satellite-decision-pack/README.md) to understand the expected final output.
-3. Confirm that all input is fictional or explicitly authorized for the working environment.
-4. Create stable IDs for scope items, links, inventory records, evidence, exposures, overrides, vendors, actions, and decisions.
-5. Cite evidence IDs for every material statement. Mark unsupported, stale, conflicting, excluded, or unknown information explicitly.
-6. Keep exposure, readiness, evidence, and critical conditions separate. Never infer a favorable result from missing information.
-7. Produce draft artifacts in the Decision Pack order and preserve assumptions, limitations, dissent, and reassessment triggers.
-8. Treat every posture as decision support for human review, not as authority to deploy or operate.
-9. Run the repository validators before proposing or committing repository changes.
-
-The repository is structured so an agent can navigate it without prior conversation history or private context.
-
-## Who Can Use It
+## Who It Helps
 
 The framework is useful for:
 
@@ -101,7 +84,7 @@ The framework is useful for:
 - cybersecurity, cryptography, mission-assurance, and systems-engineering reviewers;
 - program, procurement, supply-chain, vendor-management, and governance teams;
 - commercial, civil, defense, national-security, international, and research programs applying their own authorized requirements;
-- analysts and AI agents preparing evidence-linked planning artifacts for human review.
+- analysts and reviewers preparing evidence-linked planning artifacts for human review.
 
 Use the [Role-Based Reading Paths](docs/role-based-reading-paths.md) for a shorter route through the repository.
 

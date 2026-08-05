@@ -3,7 +3,7 @@
 ## 0.2.2 - 2026-08-05
 
 - Rewrote the README around practical use and removed release-history content from the repository landing page.
-- Added a zero-context AI Agent Guide and AI-agent reading path.
+- Added audience-neutral, zero-context navigation and clearer reading paths.
 - Simplified the repository scope statement for first-time readers.
 - Aligned version, citation, release metadata, source review, package prefix, manifest, and SHA-256 records.
 - Preserved the v0.2.1 assessment methodology without modification.
