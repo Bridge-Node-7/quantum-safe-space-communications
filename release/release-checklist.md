@@ -30,6 +30,6 @@
 - [ ] Secret scanning and push protection enabled and verified where supported
 - [ ] Signed tag points to exact merged main
 - [ ] Public assets downloaded and hashes verified
-- [ ] Open PR count is zero
+- [ ] No unrelated or unreviewed open pull requests remain; any allowed maintenance pull requests are documented in the final seal
 - [ ] Logged-out public access verified
 - [ ] Final seal and its checksum uploaded and reverified

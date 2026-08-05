@@ -2,11 +2,11 @@
 
 ## Controlling posture
 
-**SOURCE CANDIDATE: VALIDATED**
+**DOCUMENTATION-FIRST MAINTENANCE LINE: v0.2.1**
 
-**LIVE PUBLIC RELEASE: PENDING CONTROLLED GITHUB EXECUTION AND READ-BACK SEAL**
+**AUTHORITATIVE PUBLIC STATUS: SIGNED TAG AND FINAL RELEASE SEAL**
 
-This status applies only to the documentation-first v0.2.0 source candidate. It does not apply to the withdrawn experimental engine or workbook candidates.
+This status applies only to the documentation-first v0.2.1 source line. It does not apply to the withdrawn experimental engine or workbook candidates.
 
 ## Included public scope
 
@@ -30,4 +30,4 @@ The staged GitHub release controller is distributed in the audited release-opera
 - Operational-effectiveness claim
 - Certification or authorization
 
-The public release becomes `PASS` only when the exact merge, repository settings, tag, assets, redirect, and public URLs are independently read back and recorded in the final release seal.
+A release is `PASS` only when the exact merge, repository settings, signed tag, assets, redirects, public URLs, allowed open maintenance work, and final release seal are independently read back.

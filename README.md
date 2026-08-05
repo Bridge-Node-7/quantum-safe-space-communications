@@ -4,9 +4,9 @@ Evidence-based assessment and migration-planning framework for post-quantum cryp
 
 ## Status
 
-**Source candidate validated. Live GitHub publication remains pending until the staged release controller completes its public read-back and final seal.**
+**Version 0.2.1 maintenance line. Authoritative public-release status is established by the signed GitHub tag and final release seal for the exact commit.**
 
-Version 0.2.0 is documentation-first. It retires the invalid weighted readiness aggregate and compensating average risk method published in version 0.1.5. It does not contain an automated assessment engine, cryptographic implementation, or workbook decision calculator.
+Version 0.2.1 preserves the documentation-first methodology from v0.2.0, updates the pinned GitHub Actions dependencies, groups future GitHub Actions version updates, and refreshes repository integrity records. It does not contain an automated assessment engine, cryptographic implementation, or workbook decision calculator.
 
 ## Who It Is For
 
