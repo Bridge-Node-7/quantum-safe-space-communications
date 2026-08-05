@@ -84,6 +84,7 @@ release/release-strategy-decision.md
 release/repository-metadata.json
 release/v0.1.5-supersession-note.md
 release/v0.2.0-release-body.md
+release/v0.2.1-release-body.md
 requirements-validation.txt
 scripts/validate.ps1
 scripts/validate.sh

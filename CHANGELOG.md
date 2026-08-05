@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.1 - 2026-08-05
+
+- Updated the pinned `actions/checkout` dependency from v4.2.2 to v7.0.1.
+- Updated the pinned `actions/setup-python` dependency from v5.6.0 to v7.0.0.
+- Grouped future GitHub Actions version updates into one Dependabot pull request.
+- Regenerated the repository manifest and SHA-256 records.
+- Clarified release status and final-seal treatment of documented maintenance pull requests.
+- Preserved the v0.2.0 methodology without modification.
+
 ## 0.2.0 - 2026-08-05
 
 - Corrected Windows validation portability by enforcing UTF-8 and making the evidence-coverage mutation test verify that its mutation was applied.
