@@ -7,7 +7,6 @@
 .github/pull_request_template.md
 .github/workflows/methodology-integrity.yml
 .gitignore
-AGENTS.md
 CHANGELOG.md
 CITATION.cff
 CODE_OF_CONDUCT.md

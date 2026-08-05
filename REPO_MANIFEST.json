@@ -5,7 +5,7 @@
   "version": "0.2.2",
   "release_date": "2026-08-05",
   "methodology_scope": "documentation-first; no automated assessment engine or workbook decision calculator",
-  "controlled_file_count": 102,
+  "controlled_file_count": 101,
   "integrity_note": "REPO_MANIFEST.json and SHA256SUMS are excluded from controlled files. SHA256SUMS includes REPO_MANIFEST.json but excludes itself.",
   "files": [
     {
@@ -54,14 +54,9 @@
       "sha256": "fff82464ea2f3cf10856d4c5de91f4614b663af4d5c094bbc0b58677bd939e01"
     },
     {
-      "path": "AGENTS.md",
-      "bytes": 3284,
-      "sha256": "78957635888f97524a9a2179ea220bb227cc6a2fd20827d2fb7b758d5f898ca8"
-    },
-    {
       "path": "CHANGELOG.md",
-      "bytes": 3533,
-      "sha256": "6186a7eb3d40b07b225d1ad34550471ab419f2662d18a7359792bba1fa325617"
+      "bytes": 3545,
+      "sha256": "383afbe8225bb78a2b83648129ba1e3829ff69dfd89251a09d5980c559502ad5"
     },
     {
       "path": "CITATION.cff",
@@ -115,18 +110,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 9729,
-      "sha256": "11b52a777a5b0adca94a90431d4dc2015a804ec52e466c2fa5566e4acac4c2ec"
+      "bytes": 8319,
+      "sha256": "8d99d80918011f811aef43445096bd85cfa9f705cc7a05c022c00524facc8d3b"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1289,
-      "sha256": "d3e3dd80fae989bc9abbacbc39557b06486600ea5b1a56de9849ba1df5f5c25d"
+      "bytes": 1324,
+      "sha256": "7e160f5ff49f2aa5c3db55790d4be660f6366f1b2ab27781f263b7eb058f2503"
     },
     {
       "path": "RELEASE_REVIEW.md",
-      "bytes": 1308,
-      "sha256": "d0498d5c31d7295b63aead72818b50b82df6e544b4cabe1ac0c08f12f4f0eb2e"
+      "bytes": 1307,
+      "sha256": "623ecb78b75e4306b07c0fcf60b792e3a3af3bed394d4f664d1241cc4170fca8"
     },
     {
       "path": "SECURITY.md",
@@ -235,8 +230,8 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 2169,
-      "sha256": "db0901410151eed2177021f8d2fbf1ebe2f163e0296f9ec4d47d2075e54282c3"
+      "bytes": 2136,
+      "sha256": "59b575c966f0230e10f308c97e6ac4278df43c8681cf9ebfdf9b1e02ac7ef288"
     },
     {
       "path": "docs/accessibility-and-mobile-use.md",
@@ -300,8 +295,8 @@
     },
     {
       "path": "docs/role-based-reading-paths.md",
-      "bytes": 2135,
-      "sha256": "4a694883c09b37cf604cbee8c51662023699161424779d9e9cd4da4c298b500c"
+      "bytes": 1886,
+      "sha256": "ae0e8e826aaec28982b96b132ad2180d1f96adfee968f9ecd1033ce233658507"
     },
     {
       "path": "docs/space-link-constraints.md",
@@ -380,8 +375,8 @@
     },
     {
       "path": "release/changed-files-allowlist.txt",
-      "bytes": 3498,
-      "sha256": "7deb9ac4b51c985f565ff363bffea52706136c8cbae014e4663763fd8232cf39"
+      "bytes": 3488,
+      "sha256": "b9a1e928643292832414653bea36eb3d3893ec46977b2ee0f597eef5d86ed5fc"
     },
     {
       "path": "release/external-link-exceptions.json",
@@ -440,8 +435,8 @@
     },
     {
       "path": "release/v0.2.2-release-body.md",
-      "bytes": 904,
-      "sha256": "73fb838560b8125a9e5941ec8ba4d782954fb13718538d4731e12a5e52fe49c0"
+      "bytes": 932,
+      "sha256": "c07e3b4a556f1a87f47de1914b700c7da5c7ef8f508e75abdf96199a4a2fea2d"
     },
     {
       "path": "requirements-validation.txt",
@@ -515,8 +510,8 @@
     },
     {
       "path": "tools/validate_repo.py",
-      "bytes": 26282,
-      "sha256": "db8b812d3ecf1ae0cb8917b82b0b0e94c1a19083ea715cbb616744efe3c73616"
+      "bytes": 26269,
+      "sha256": "2e9604aac11f64ac476cbdcba6c4cf999396b0454b510ea87e4dc58a2a22beba"
     }
   ]
 }

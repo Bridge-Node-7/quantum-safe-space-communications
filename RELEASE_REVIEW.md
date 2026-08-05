@@ -11,8 +11,8 @@
 | Gate | Result |
 |---|---|
 | README is history-free and task-oriented | PASS |
-| First-time human path is explicit | PASS |
-| Zero-context AI-agent path is explicit | PASS |
+| First-time path is explicit | PASS |
+| Zero-context navigation is audience-neutral | PASS |
 | Assessment sequence matches the methodology | PASS |
 | Exposure, readiness, evidence, and critical conditions remain separate | PASS |
 | Unknown and Not Applicable remain distinct | PASS |
