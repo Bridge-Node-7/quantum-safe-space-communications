@@ -1,25 +1,26 @@
-# Quantum Readiness for Space Communications v0.2.1
+# Quantum Readiness for Space Communications v0.2.2
 
-## Release summary
+## Release Summary
 
-Version 0.2.1 is a documentation-first maintenance update over v0.2.0.
+Version 0.2.2 improves public onboarding and repository self-consistency without changing the assessment methodology.
 
 It:
 
-- updates `actions/checkout` from the reviewed v4.2.2 pin to the reviewed v7.0.1 pin;
-- updates `actions/setup-python` from the reviewed v5.6.0 pin to the reviewed v7.0.0 pin;
-- groups future GitHub Actions version updates into one Dependabot pull request;
-- refreshes the repository manifest and checksum records; and
-- clarifies release-status and final-seal handling for documented maintenance pull requests.
+- rewrites the README around practical use rather than release history;
+- adds a zero-context AI Agent Guide;
+- makes the fictional Decision Pack the recommended first example;
+- simplifies the repository scope statement;
+- aligns version, citation, release, review, package-prefix, manifest, and checksum records;
+- preserves all exposure, readiness, evidence, critical-condition, and Decision Pack semantics.
 
-## Methodology impact
+## Methodology Impact
 
 There is no methodology change. Quantum Exposure Severity, Migration Readiness Profile, Evidence Confidence and Coverage, Critical Risk Overrides, and the Quantum Readiness Decision Pack remain unchanged.
 
-## Public scope
+## Public Scope
 
-This release does not contain an assessment engine, automated disposition, cryptographic implementation, public JSON decision schema, or workbook decision calculator.
+This release contains documentation, templates, a fictional example, and lightweight validation and packaging tools. It does not contain a cryptographic implementation, live-system connector, assessment engine, or workbook decision calculator.
 
-## Claim boundary
+## Claim Boundary
 
 This release is not certification, compliance determination, operational authorization, flight qualification, product validation, or proof that a system is quantum-safe.

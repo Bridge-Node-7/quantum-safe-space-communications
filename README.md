@@ -2,50 +2,70 @@
 
 Evidence-based assessment and migration-planning framework for post-quantum cryptography across spacecraft, satellite links, ground systems, mission operations, and supporting vendors.
 
-## Status
+This repository helps teams identify cryptographic dependencies, document quantum-era exposure, plan migration, and assemble a human-reviewed **Quantum Readiness Decision Pack**.
 
-**Version 0.2.1 maintenance line. Authoritative public-release status is established by the signed GitHub tag and final release seal for the exact commit.**
+It is documentation-first. It provides methods, templates, examples, and validation tools. It does not connect to live systems, implement cryptography, or issue certification or operational authorization.
 
-Version 0.2.1 preserves the documentation-first methodology from v0.2.0, updates the pinned GitHub Actions dependencies, groups future GitHub Actions version updates, and refreshes repository integrity records. It does not contain an automated assessment engine, cryptographic implementation, or workbook decision calculator.
+## Start Here
 
-## Who It Is For
+| Goal | Start with | Continue with |
+|---|---|---|
+| Understand the completed workflow | [Fictional Decision Pack](examples/sample-small-satellite-decision-pack/README.md) | [Documentation Index](docs/README.md) |
+| Begin an assessment | [Assessment Overview](assessment/quantum-readiness-space-communications-assessment.md) | [Assessor Guide](docs/assessor-guide.md) |
+| Build the final deliverable | [Decision Pack Guide](decision-pack/README.md) | [Decision Summary Template](decision-pack/decision-summary-template.md) |
+| Review technical context | [Quantum-Cryptography Foundations](docs/quantum-cryptography-foundations.md) | [Standards Register](docs/standards-register.md) |
+| Use the repository with an AI agent | [AI Agent Guide](AGENTS.md) | [Documentation Index](docs/README.md) |
+| Validate a repository change | [Validation](#validate-the-repository) | [Methodology Integrity](docs/methodology-integrity.md) |
 
-- Satellite and spacecraft operators
-- Ground-station providers
-- Mission operations teams
-- Space cybersecurity and mission-assurance teams
-- Vendors and systems integrators
-- Government and defense programs
-- Procurement and program-management teams
-- Technical assessors and reviewers
+For a first review, open the fictional Decision Pack before filling in a blank template. It shows the expected structure, evidence links, unknowns, critical conditions, actions, limitations, and decision record.
 
-## What the Framework Produces
+## What You Need Before Starting
 
-The **Quantum Readiness Decision Pack** brings together four separate decision inputs:
+Use the framework only after defining:
 
-1. **Quantum Exposure Severity**, where higher severity means greater concern and `Unknown / Not Assessed` remains distinct from `Not Applicable`.
-2. **Migration Readiness Profile**, where higher stages mean stronger demonstrated capability across ten non-compensating domains.
-3. **Evidence Confidence and Coverage**, which records support strength, provenance, currency, conflicts, exclusions, and unassessed critical scope.
-4. **Critical Risk Overrides**, which cannot be canceled by progress elsewhere.
+- the authorized systems, links, data, vendors, and lifecycle stages in scope;
+- an accountable scope owner and the intended decision;
+- information-handling rules for mission, customer, vendor, security, and controlled data;
+- available architecture, configuration, certificate, firmware, software, test, and vendor evidence;
+- known exclusions, assumptions, review dates, and reassessment triggers.
 
-The final package also records ownership, actions, standards applicability, limitations, decisions, approvals, and review history.
+Do not treat missing information as favorable evidence.
 
-## Canonical Quick Start
+## Core Workflow
 
-1. [Define scope](assessment/quantum-readiness-space-communications-assessment.md).
-2. [Map systems and links](assessment/link-map-template.md).
-3. [Inventory cryptography](assessment/crypto-inventory-template.md).
-4. [Record exposure](assessment/quantum-exposure-severity.md).
-5. [Profile migration readiness](assessment/migration-readiness-profile.md).
-6. [Record evidence confidence and coverage](assessment/evidence-confidence-ledger.md).
-7. [Review critical conditions](assessment/critical-risk-overrides.md).
-8. [Assign ownership and actions](assessment/ownership-matrix-template.md).
-9. [Assemble the Quantum Readiness Decision Pack](decision-pack/README.md).
-10. [Review the complete fictional example](examples/sample-small-satellite-decision-pack/README.md).
+1. [Define scope, boundaries, owners, and exclusions](assessment/quantum-readiness-space-communications-assessment.md).
+2. [Map spacecraft, ground, cloud, vendor, update, recovery, and communications paths](assessment/link-map-template.md).
+3. [Inventory algorithms, protocols, certificates, libraries, firmware, keys, trust anchors, and vendor dependencies](assessment/crypto-inventory-template.md).
+4. [Record Quantum Exposure Severity for each material scope item](assessment/quantum-exposure-severity.md).
+5. [Profile migration readiness across ten separate domains](assessment/migration-readiness-profile.md).
+6. [Record evidence confidence, provenance, currency, conflicts, and coverage](assessment/evidence-confidence-ledger.md).
+7. [Evaluate all twelve Critical Risk Overrides](assessment/critical-risk-overrides.md).
+8. [Assign accountable owners, actions, resources, due dates, and escalation paths](assessment/ownership-matrix-template.md).
+9. [Build the migration and recovery roadmap](frameworks/pqc-migration-roadmap.md).
+10. [Assemble and review the Quantum Readiness Decision Pack](decision-pack/README.md).
 
 Start with inventory. Do not make a favorable exposure or readiness statement before the relevant systems, cryptography, owners, and evidence are in scope.
 
-## Decision-Support Postures
+## What the Decision Pack Contains
+
+The framework keeps four decision inputs separate:
+
+1. **Quantum Exposure Severity** records concern for each asset, link, protocol, trust function, update path, vendor dependency, or protected data set.
+2. **Migration Readiness Profile** records demonstrated capability across ten non-compensating domains.
+3. **Evidence Confidence and Coverage** records support strength, provenance, currency, conflicts, exclusions, and unassessed critical scope.
+4. **Critical Risk Overrides** preserve conditions that cannot be canceled by progress elsewhere.
+
+The completed package also records scope, ownership, actions, vendor and standards applicability, migration and recovery planning, decisions, approvals, limitations, dissent, review history, and reassessment triggers.
+
+## How to Interpret Results
+
+- Higher exposure severity means greater concern.
+- Higher readiness stages mean stronger demonstrated migration capability.
+- Evidence strength is separate from exposure and readiness.
+- Critical conditions cannot be averaged away.
+- `Unknown / Not Assessed` remains visible until supported evidence is available.
+- `Not Applicable` requires sufficient evidence, a written rationale, an accountable decision owner, and a reassessment trigger.
+- Do not combine the four decision inputs into one aggregate readiness number.
 
 These human-governed postures support planning only:
 
@@ -55,26 +75,53 @@ These human-governed postures support planning only:
 - **Executive Decision Required**
 - **Ready for Governed Migration**
 
-`Not Applicable` is an applicability determination, not a decision-support posture. It requires sufficient evidence and an accountable scope decision.
-
 The postures are not certification, compliance determination, deployment approval, flight qualification, operational authorization, or proof that a system is quantum-safe.
 
-## Repository Structure
+## For AI Agents
 
-```text
-quantum-readiness-space-communications/
-├── assessment/       Assessment instruments and historical compatibility pointers
-├── briefings/        Action-planning templates
-├── decision-pack/    Quantum Readiness Decision Pack assembly guidance
-├── docs/             Methodology, evidence, standards, limits, and reading paths
-├── examples/         Complete fictional Decision Pack
-├── frameworks/       Migration roadmap
-├── release/          Release metadata, settings checklist, and seal templates
-├── tests/            Positive and adversarial methodology tests
-└── tools/            Repository, link, boundary, manifest, and packaging validators
-```
+An AI agent starting from zero should follow this order:
 
-## Validate the Source Candidate
+1. Read this README, [AGENTS.md](AGENTS.md), the [Documentation Index](docs/README.md), [Methodology](docs/methodology.md), and [Known Limitations](KNOWN_LIMITATIONS.md).
+2. Review the [fictional Decision Pack](examples/sample-small-satellite-decision-pack/README.md) to understand the expected final output.
+3. Confirm that all input is fictional or explicitly authorized for the working environment.
+4. Create stable IDs for scope items, links, inventory records, evidence, exposures, overrides, vendors, actions, and decisions.
+5. Cite evidence IDs for every material statement. Mark unsupported, stale, conflicting, excluded, or unknown information explicitly.
+6. Keep exposure, readiness, evidence, and critical conditions separate. Never infer a favorable result from missing information.
+7. Produce draft artifacts in the Decision Pack order and preserve assumptions, limitations, dissent, and reassessment triggers.
+8. Treat every posture as decision support for human review, not as authority to deploy or operate.
+9. Run the repository validators before proposing or committing repository changes.
+
+The repository is structured so an agent can navigate it without prior conversation history or private context.
+
+## Who Can Use It
+
+The framework is useful for:
+
+- spacecraft, satellite, payload, ground-station, and mission-operations teams;
+- cybersecurity, cryptography, mission-assurance, and systems-engineering reviewers;
+- program, procurement, supply-chain, vendor-management, and governance teams;
+- commercial, civil, defense, national-security, international, and research programs applying their own authorized requirements;
+- analysts and AI agents preparing evidence-linked planning artifacts for human review.
+
+Use the [Role-Based Reading Paths](docs/role-based-reading-paths.md) for a shorter route through the repository.
+
+## Repository Map
+
+| Location | Purpose |
+|---|---|
+| `assessment/` | Scope, link map, cryptographic inventory, exposure, readiness, evidence, critical-condition, ownership, vendor, and executive templates |
+| `briefings/` | Action-planning templates |
+| `decision-pack/` | Final deliverable assembly, decision summary, and review record |
+| `docs/` | Methodology, evidence, standards, technical context, limitations, and reading paths |
+| `examples/` | Complete fictional worked example |
+| `frameworks/` | Migration and recovery roadmap |
+| `release/` | Release metadata, integrity checklists, and seal templates |
+| `tests/` | Positive and adversarial methodology tests |
+| `tools/` | Repository, link, public-boundary, manifest, and packaging validators |
+
+## Validate the Repository
+
+Git Bash or another Bash environment:
 
 ```bash
 python -m pip install -r requirements-validation.txt
@@ -88,26 +135,28 @@ python -m pip install -r requirements-validation.txt
 powershell -ExecutionPolicy Bypass -File scripts/validate.ps1
 ```
 
-Network checks are enabled in hosted CI. To run them locally:
+Hosted continuous integration also runs network-aware link checks. To enable those checks locally:
 
 ```bash
 VALIDATE_NETWORK=1 bash scripts/validate.sh
 ```
 
-The validators enforce repository and methodology boundaries. They do not calculate an assessment outcome.
+The validators check repository integrity and methodology boundaries. They do not calculate an assessment result.
 
 ## Publicly Distributable Use
 
-For this repository, **publicly distributable** means content approved for unrestricted public release after privacy, security, export-control, contractual, and mission-sensitivity review. Use fictional or explicitly authorized information only. Do not publish credentials, keys, tokens, controlled technical data, real mission architecture, sensitive hostnames, private vendor responses, customer information, or security weaknesses that could enable targeting.
+Use fictional or explicitly authorized information only. Do not publish credentials, keys, tokens, controlled technical data, real mission architecture, sensitive hostnames, private vendor responses, customer information, or security weaknesses that could enable targeting.
 
-Read the [Documentation Index](docs/README.md), [SECURITY.md](SECURITY.md), [DISCLAIMER.md](DISCLAIMER.md), [Known Limitations](KNOWN_LIMITATIONS.md), [Public Claim Boundaries](docs/public-claim-boundaries.md), and [Accessibility and Mobile Use](docs/accessibility-and-mobile-use.md).
+Before publishing any completed artifact, apply the required privacy, security, export-control, contractual, intellectual-property, and mission-sensitivity review for your environment.
 
-## Release Strategy
+## Limits and Responsible Use
 
-The direct documentation-first v0.2.0 release supersedes the interim v0.1.6 containment plan because the complete corrected methodology is being prepared for immediate controlled execution. The original v0.1.5 tag and assets remain preserved and receive a visible supersession notice. See [Release Strategy Decision](release/release-strategy-decision.md).
+Read [Known Limitations](KNOWN_LIMITATIONS.md), [Public Claim Boundaries](docs/public-claim-boundaries.md), [DISCLAIMER.md](DISCLAIMER.md), and [SECURITY.md](SECURITY.md).
 
-## License
+This framework supports evidence-based planning. It does not replace cryptographic engineering, mission engineering, safety review, legal analysis, contracting decisions, standards applicability determinations, or formal authorization processes.
+
+## License and Citation
 
 MIT License. See [LICENSE](LICENSE).
 
-Bridge Node 7: evidence-first methods for trusted frontier translation.
+Use [CITATION.cff](CITATION.cff) and cite the exact tagged release used for an assessment or derivative work.

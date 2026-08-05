@@ -1,33 +1,25 @@
-# Release Status
+# Repository Scope
 
-## Controlling posture
+Quantum Readiness for Space Communications is a documentation-first assessment and migration-planning framework.
 
-**DOCUMENTATION-FIRST MAINTENANCE LINE: v0.2.1**
+## Included
 
-**AUTHORITATIVE PUBLIC STATUS: SIGNED TAG AND FINAL RELEASE SEAL**
+- assessment instruments and blank templates;
+- Quantum Readiness Decision Pack guidance;
+- a complete fictional example;
+- technical context and a standards register;
+- lightweight repository and methodology validators;
+- deterministic packaging and release-integrity records.
 
-This status applies only to the documentation-first v0.2.1 source line. It does not apply to the withdrawn experimental engine or workbook candidates.
+## Not Included
 
-## Included public scope
+- cryptographic implementation;
+- connection to or testing of live mission systems;
+- an automated assessment or scoring engine;
+- an authoritative favorable or adverse decision;
+- certification, compliance determination, deployment approval, flight qualification, or operational authorization;
+- real mission, customer, vendor, or controlled technical data.
 
-- Markdown assessment instruments
-- Quantum Readiness Decision Pack guidance
-- Complete fictional example
-- Current standards register
-- Lightweight validators and adversarial tests
-- Deterministic packaging tool
-- Release metadata, settings checklist, and final-seal template
+## Verification
 
-The staged GitHub release controller is distributed in the audited release-operations bundle, not in the public repository source archive.
-
-## Excluded public scope
-
-- Cryptographic implementation
-- Automated assurance or scoring engine
-- Automated favorable or adverse disposition
-- Workbook decision calculator
-- Real mission or customer data
-- Operational-effectiveness claim
-- Certification or authorization
-
-A release is `PASS` only when the exact merge, repository settings, signed tag, assets, redirects, public URLs, allowed open maintenance work, and final release seal are independently read back.
+Run `bash scripts/validate.sh` or `scripts/validate.ps1` to validate the source tree. Verify a public release through its signed GitHub tag, published checksum assets, and final public release seal.

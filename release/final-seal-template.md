@@ -6,31 +6,28 @@
 | Public visibility |  |
 | Repository description and homepage |  |
 | Topics |  |
-| Release | v0.2.1 |
+| Release | v0.2.2 |
 | Main commit |  |
+| Main tree |  |
 | Tag commit and verification |  |
 | Pull request |  |
 | Hosted Linux validation |  |
 | Hosted Windows validation |  |
 | Source asset SHA-256 |  |
 | Unauthenticated asset verification |  |
-| Release date |  |
+| Release date | 2026-08-05 |
 | Strict required checks |  |
-| Admin enforcement |  |
-| Linear history |  |
 | Force pushes disabled |  |
 | Branch deletion disabled |  |
 | Conversation resolution |  |
 | Actions token permissions |  |
 | Private vulnerability reporting |  |
-| Dependabot alerts |  |
-| Dependabot security updates |  |
-| Secret scanning |  |
-| Push protection |  |
+| Dependabot alerts and security updates |  |
+| Secret scanning and push protection |  |
 | Former-name redirect |  |
-| Historical v0.1.5 supersession notice |  |
-| Open release pull requests / documented maintenance pull requests |  |
+| Open pull requests |  |
+| Open issues |  |
 | Logged-out public access |  |
 | Final disposition |  |
 
-The seal records release integrity and GitHub state. It is not system certification or operational authorization.
+The seal records repository and release integrity. It is not system certification or operational authorization.

@@ -26,7 +26,7 @@ OLD_ALLOWED = {
     "REPO_MANIFEST.json",
 }
 REQUIRED = {
-    "README.md", "VERSION", "STATUS.md", "CHANGELOG.md", "METHODOLOGY_CHANGELOG.md",
+    "README.md", "AGENTS.md", "VERSION", "STATUS.md", "CHANGELOG.md", "METHODOLOGY_CHANGELOG.md",
     "ERRATA_v0.1.5.md", "KNOWN_LIMITATIONS.md", "CITATION.cff", "GOVERNANCE.md",
     "MAINTAINERS.md", "RELEASE_NOTES.md", "RELEASE_REVIEW.md", "REPO_MANIFEST.json",
     "SHA256SUMS", "requirements-validation.txt", "assessment/quantum-readiness-space-communications-assessment.md",
@@ -125,8 +125,8 @@ def validate(root: Path) -> list[str]:
         if not (root / rel).is_file():
             errors.append(f"missing required file: {rel}")
 
-    if (root / "VERSION").read_text(encoding="utf-8").strip() != "0.2.1":
-        errors.append("VERSION must be 0.2.1")
+    if (root / "VERSION").read_text(encoding="utf-8").strip() != "0.2.2":
+        errors.append("VERSION must be 0.2.2")
 
     attributes = (root / ".gitattributes").read_text(encoding="utf-8")
     if "* text=auto eol=lf" not in attributes:
@@ -389,7 +389,7 @@ def validate(root: Path) -> list[str]:
             errors.append(f"CITATION.cff required field missing: {field}")
 
     metadata = json.loads((root / "release/release-metadata.json").read_text(encoding="utf-8"))
-    for field, expected in [("name", SLUG), ("title", TITLE), ("version", "0.2.1"), ("decision_pack_name", DECISION_PACK)]:
+    for field, expected in [("name", SLUG), ("title", TITLE), ("version", "0.2.2"), ("decision_pack_name", DECISION_PACK)]:
         if metadata.get(field) != expected:
             errors.append(f"release metadata mismatch: {field}")
     release_date = metadata.get("release_date")
