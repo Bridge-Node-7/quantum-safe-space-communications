@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.2 - 2026-08-05
+
+- Rewrote the README around practical use and removed release-history content from the repository landing page.
+- Added a zero-context AI Agent Guide and AI-agent reading path.
+- Simplified the repository scope statement for first-time readers.
+- Aligned version, citation, release metadata, source review, package prefix, manifest, and SHA-256 records.
+- Preserved the v0.2.1 assessment methodology without modification.
+
 ## 0.2.1 - 2026-08-05
 
 - Updated the pinned `actions/checkout` dependency from v4.2.2 to v7.0.1.

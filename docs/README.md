@@ -1,26 +1,29 @@
 # Documentation Index
 
-Use this index to move from orientation to assessment, review, and release governance without searching the repository manually.
+Use this index to move from orientation to assessment, review, and repository validation without searching manually.
 
-## Start here
+## Start Here
 
 - [Repository overview and quick start](../README.md)
+- [AI Agent Guide](../AGENTS.md)
 - [Methodology overview](methodology.md)
-- [How methodology integrity is maintained](methodology-integrity.md)
+- [Assessor guide](assessor-guide.md)
 - [Role-based reading paths](role-based-reading-paths.md)
 - [Applicability matrix](applicability-matrix.md)
 
-## Assessment and evidence
+## Assessment and Evidence
 
-- [Assessor guide](assessor-guide.md)
-- [Evidence model](evidence-model.md)
+- [Assessment overview](../assessment/quantum-readiness-space-communications-assessment.md)
+- [System and link map](../assessment/link-map-template.md)
+- [Cryptographic inventory](../assessment/crypto-inventory-template.md)
 - [Quantum Exposure Severity](../assessment/quantum-exposure-severity.md)
 - [Migration Readiness Profile](../assessment/migration-readiness-profile.md)
 - [Evidence Confidence and Coverage](../assessment/evidence-confidence-ledger.md)
 - [Critical Risk Overrides](../assessment/critical-risk-overrides.md)
+- [Ownership matrix](../assessment/ownership-matrix-template.md)
 - [Quantum Readiness Decision Pack assembly guide](../decision-pack/README.md)
 
-## Technical and standards context
+## Technical and Standards Context
 
 - [Quantum-cryptography foundations](quantum-cryptography-foundations.md)
 - [Space-link constraints](space-link-constraints.md)
@@ -28,17 +31,18 @@ Use this index to move from orientation to assessment, review, and release gover
 - [References](references.md)
 - [Glossary](glossary.md)
 
-## Boundaries, limitations, and change control
+## Boundaries and Quality Controls
 
+- [Evidence model](evidence-model.md)
+- [Methodology integrity](methodology-integrity.md)
 - [Known limitations](../KNOWN_LIMITATIONS.md)
 - [Public claim boundaries](public-claim-boundaries.md)
 - [Accessibility and mobile use](accessibility-and-mobile-use.md)
 - [Change control](change-control.md)
-- [Compatibility and supersession](compatibility-and-supersession.md)
 - [Governance](../GOVERNANCE.md)
-- [Security reporting](../SECURITY.md)
+- [Security](../SECURITY.md)
 
-## Worked example
+## Worked Example
 
 - [Complete fictional small-satellite Quantum Readiness Decision Pack](../examples/sample-small-satellite-decision-pack/README.md)
 

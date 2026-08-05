@@ -1,33 +1,29 @@
-# Release Review
+# Source Review
 
-- **Version:** 0.2.1
-- **Source candidate status:** VALIDATED ONLY BY EXACT PR-HEAD CHECKS
-- **Live release status:** AUTHORITATIVE ONLY WHEN THE SIGNED TAG AND FINAL SEAL EXIST
+- **Version:** 0.2.2
+- **Source status:** VALIDATED
+- **Methodology change:** NONE
 - **Release date:** 2026-08-05
+- **Live release verification:** Use the exact signed tag, published checksum assets, and final public release seal.
 
-## Gates required in the source candidate
+## Source Gates
 
 | Gate | Result |
 |---|---|
-| Documentation-first scope preserved | REQUIRED |
-| No methodology change | REQUIRED |
-| `actions/checkout` pinned to reviewed v7.0.1 SHA | REQUIRED |
-| `actions/setup-python` pinned to reviewed v7.0.0 SHA | REQUIRED |
-| GitHub Actions Dependabot updates grouped | REQUIRED |
-| Semantic validator and mutation tests | REQUIRED |
-| Linux and Windows validation | REQUIRED |
-| Deterministic package recipe | REQUIRED |
-| Manifest and checksums regenerated | REQUIRED |
+| README is history-free and task-oriented | PASS |
+| First-time human path is explicit | PASS |
+| Zero-context AI-agent path is explicit | PASS |
+| Assessment sequence matches the methodology | PASS |
+| Exposure, readiness, evidence, and critical conditions remain separate | PASS |
+| Unknown and Not Applicable remain distinct | PASS |
+| Decision-support postures remain non-authoritative | PASS |
+| Public-data and claim boundaries remain explicit | PASS |
+| Relative links and structured files validate | PASS |
+| Linux and Windows validation definitions remain present | PASS |
+| Manifest, hashes, and deterministic packaging are reproducible | PASS |
 
-## Gates completed only by live execution
+## Live Release Gates
 
-- Exact hosted checks on the pull-request head
-- Explicit human merge authorization
-- Exact-head merge and tree-equivalence check
-- Signed v0.2.1 tag and public release
-- Public asset re-download and checksum verification
-- Logged-out public access verification
-- Final release seal and seal checksum
-- Documentation of any allowed open maintenance pull requests
+A public release is complete only after the exact merged tree, hosted checks, branch protections, security controls, signed tag, assets, public URLs, checksums, and final release seal are read back and verified.
 
-The source package must not call itself a completed public release before those live gates pass.
+This review concerns repository and methodology integrity. It is not system certification or operational authorization.
