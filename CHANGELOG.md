@@ -1,0 +1,34 @@
+# Changelog
+
+## 0.2.0 - 2026-08-05
+
+- Corrected Windows validation portability by enforcing UTF-8 and making the evidence-coverage mutation test verify that its mutation was applied.
+- Added repository-local release identity controls and fresh-run checkpoint binding.
+- Added real calendar-date validation, cross-platform archive modes, output self-exclusion, and release-tool regression tests.
+- Added weekly Dependabot review for validation and GitHub Actions dependencies.
+
+### Changed
+
+- Renamed the public framework to **Quantum Readiness for Space Communications**.
+- Retired the invalid v0.1.5 weighted readiness aggregate and compensating average risk model.
+- Added `Unknown / Not Assessed` outside the exposure scale.
+- Separated Quantum Exposure Severity, Migration Readiness Profile, Evidence Confidence and Coverage, and Critical Risk Overrides.
+- Added twelve explicit critical conditions, including long-lived confidentiality exposure and contradictory critical evidence.
+- Restored ten non-compensating readiness domains and the highest stage **Sustained and Reassessed**.
+- Added a complete fictional Quantum Readiness Decision Pack.
+- Added an assessor guide, evidence model, change-control guide, known limitations, foundations page, and consolidated v0.1.5 errata.
+- Added stronger semantic validation, mutation tests, Windows CI, secret scanning, link checks, and deterministic packaging.
+- Replaced the monolithic controller with staged, non-destructive, exact-SHA release controls.
+- Added normalized YAML, JSON, and Markdown external-link parsing with quoted-URL regression tests.
+- Added semantic mutation gates for evidence-coverage direction, CR-11 and CR-12 directionality, applicability, unsupported assurance claims, README decision boundaries, and the complete limitations record.
+- Added a documentation index for assessment, technical, standards, governance, and example materials.
+- Added repository-wide whitespace enforcement, exact readiness-stage semantics, all-condition critical-override semantics, and broader unsupported-assurance mutation guards.
+- Corrected owner-only required-check guidance to match the hosted `release-integrity` and `windows-validation` jobs.
+
+### Public scope decision
+
+The experimental engine and workbook candidates were evaluated and withdrawn from the public v0.2.0 scope. They remain internal experimental material and are not part of this release.
+
+## 0.1.5 - 2026-06-19
+
+Historical initial release under the former identity. See [Consolidated Errata](ERRATA_v0.1.5.md) and [Compatibility and Supersession](docs/compatibility-and-supersession.md).

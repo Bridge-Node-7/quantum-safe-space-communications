@@ -1,74 +1,34 @@
 # Contributing
 
-Thank you for helping improve Quantum-Safe Space Communications.
+Contributions are welcome when they preserve the repository's publicly distributable, evidence-first scope.
 
-This repository contains public-safe assessment, governance, and migration-planning materials for post-quantum readiness in space communications. Contributions should improve clarity, evidence quality, usability, security, or public value.
+## Before opening a pull request
 
-## Contribution Principles
+1. Read [GOVERNANCE.md](GOVERNANCE.md).
+2. Confirm the change does not introduce an automated assurance engine or cryptographic implementation.
+3. Update affected methodology and compatibility records.
+4. Add or update tests for methodology invariants.
+5. Run the complete validation suite.
 
-1. Keep the framework practical.
-   Every addition should help an operator, assessor, engineer, executive, student, or reviewer make a better decision.
+```bash
+bash scripts/validate.sh
+```
 
-2. Separate evidence from interpretation.
-   Do not present speculative claims as confirmed facts.
+## Methodology changes
 
-3. Favor templates, checklists, scoring logic, and fictional examples.
-   This repository is intended to be useful and repeatable.
+A methodology change must state:
 
-4. Keep language clear.
-   Prefer direct, plain wording over jargon when possible.
+- the problem being corrected;
+- the affected files and outputs;
+- whether the change is breaking;
+- how non-compensation, evidence separation, and critical overrides remain intact;
+- what tests prove the change;
+- any standards-status or applicability effect.
 
-5. Preserve the public-safe boundary.
-   Do not include private, proprietary, regulated, customer, partner, or sensitive operational content.
+## Publicly distributable requirements
 
-## Good Contribution Types
+Do not submit real secrets, credentials, mission data, controlled technical data, sensitive architecture, customer information, or proprietary vendor evidence.
 
-- Assessment templates
-- Scoring rubrics
-- Vendor questionnaire improvements
-- Space communications risk models
-- PQC migration planning tools
-- QKD feasibility decision logic
-- Fictional sample assessments
-- Executive brief templates
-- Standards references
-- Glossary additions
-- Documentation improvements
+## Claim boundaries
 
-## Evidence Expectations
-
-When adding technical or policy claims, provide credible references. Preferred sources include:
-
-- NIST
-- CISA
-- CCSDS
-- standards bodies
-- peer-reviewed papers
-- authoritative industry guidance
-
-## Pull Request Checklist
-
-Before submitting, confirm that:
-
-- The contribution supports the project mission.
-- Claims are supported or clearly framed as analysis.
-- New files use clear titles and consistent formatting.
-- No sensitive, proprietary, regulated, or controlled technical information is included.
-- No credentials, secrets, private keys, customer data, or internal system details are included.
-- The contribution does not encourage unauthorized access or exploitation.
-
-## Security-Sensitive Contributions
-
-Do not submit exploit code, live target details, credentials, or operationally sensitive security data.
-
-For vulnerability reports, see `SECURITY.md`.
-
-## Style
-
-Use concise section headers.
-
-Use tables where they improve usability.
-
-Use examples where they make execution easier.
-
-Avoid unnecessary complexity.
+Do not describe the framework or its outputs as certification, authorization, compliance determination, operational validation, flight qualification, or proof that a system is quantum-safe.

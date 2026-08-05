@@ -1,0 +1,26 @@
+name: Methodology defect
+description: Report a reproducible ambiguity, contradiction, or non-compensation defect.
+title: "[Methodology] "
+labels: [methodology]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include sensitive or real mission information.
+  - type: input
+    id: location
+    attributes:
+      label: File and section
+    validations:
+      required: true
+  - type: textarea
+    id: defect
+    attributes:
+      label: Observed defect
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected bounded behavior
+    validations:
+      required: true

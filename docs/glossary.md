@@ -1,77 +1,27 @@
 # Glossary
 
-## Algorithm Agility
+**Assessment Incomplete:** The approved scope or required records are not sufficiently complete for a decision review.
 
-The ability to replace, upgrade, or configure cryptographic algorithms without redesigning the full system or mission architecture.
+**Critical Risk Override:** A condition that cannot be canceled by stronger performance elsewhere and requires action, evidence, or accountable exception review.
 
-## CCSDS
+**Crypto-agility:** The ability to replace or reconfigure cryptographic algorithms, parameters, protocols, keys, and trust anchors through controlled change.
 
-Consultative Committee for Space Data Systems. A standards organization that publishes space communications and data systems standards.
+**Cryptographic inventory:** A maintained record of where cryptography is used, why, by whom, through which implementation, and with what lifecycle dependencies.
 
-## Crypto Inventory
+**Evidence confidence:** The strength, status, freshness, and limitations of evidence supporting a claim.
 
-A documented map of where cryptographic algorithms, certificates, key exchange, authentication, signing, encryption, and key-management systems are used.
+**Harvest now, decrypt later:** Collection of encrypted information for possible future decryption after a cryptanalytic or quantum capability becomes available.
 
-## CRQC
+**Hybrid mode:** A design that combines traditional and next-generation mechanisms according to a defined construction and transition purpose.
 
-Cryptographically relevant quantum computer. A quantum computer capable of breaking currently deployed public-key cryptography at operationally meaningful scale.
+**Key-encapsulation mechanism:** A mechanism used to establish a shared secret over a public channel.
 
-## ECC
+**Migration readiness:** Demonstrated organizational and technical capability to plan, test, deploy, operate, recover, and reassess cryptographic migration.
 
-Elliptic-curve cryptography. A widely used public-key cryptographic family that is considered vulnerable to sufficiently capable quantum computers.
+**Post-quantum cryptography:** Cryptographic algorithms intended to resist attacks by both classical and quantum computers under their defined security assumptions.
 
-## Harvest Now, Decrypt Later
+**Quantum Exposure Severity:** A per-record expression of potential quantum-era consequence and urgency. Higher is worse.
 
-A threat model in which adversaries collect encrypted data today and attempt to decrypt it later when stronger cryptanalytic capabilities become available.
+**Quantum-safe:** A term that must not be used as an absolute certification claim in this repository.
 
-## HBOM
-
-Hardware Bill of Materials. A documented inventory of hardware components and dependencies.
-
-## HNDL
-
-Harvest Now, Decrypt Later. Shorthand for collecting encrypted data today for possible future decryption when stronger cryptanalytic capabilities are available.
-
-## HSM
-
-Hardware Security Module. A dedicated device used to protect and manage cryptographic keys and cryptographic operations.
-
-## ML-DSA
-
-Module-Lattice-Based Digital Signature Algorithm, standardized by NIST as FIPS 204.
-
-## ML-KEM
-
-Module-Lattice-Based Key-Encapsulation Mechanism, standardized by NIST as FIPS 203.
-
-## PQC
-
-Post-Quantum Cryptography. Cryptographic algorithms designed to resist attacks by both classical and quantum computers.
-
-## QKD
-
-Quantum Key Distribution. A method for establishing keys using quantum states, where eavesdropping may be detected through disturbance of the quantum signal.
-
-## QRNG
-
-Quantum Random Number Generator.
-
-## RSA
-
-A widely deployed public-key cryptographic algorithm that is considered vulnerable to sufficiently capable quantum computers.
-
-## SBOM
-
-Software Bill of Materials. A documented inventory of software components and dependencies.
-
-## SLH-DSA
-
-Stateless Hash-Based Digital Signature Algorithm, standardized by NIST as FIPS 205.
-
-## SWaP
-
-Size, Weight, and Power. A common constraint set for space and embedded systems.
-
-## TT&C
-
-Telemetry, Tracking, and Command.
+**Sustained and Reassessed:** The highest migration readiness stage, indicating governed monitoring, testing, recovery, and periodic reassessment within the approved scope.

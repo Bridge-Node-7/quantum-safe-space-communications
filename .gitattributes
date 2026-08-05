@@ -1,0 +1,8 @@
+# Preserve repository-integrity hashes across Linux and Windows checkouts.
+* text=auto eol=lf
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary

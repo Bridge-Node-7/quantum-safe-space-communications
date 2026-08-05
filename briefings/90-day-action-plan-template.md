@@ -1,58 +1,28 @@
 # 90-Day Quantum Readiness Action Plan
 
-## Purpose
+## Core action register
 
-This plan provides a near-term execution path for improving quantum-safe readiness across space communications systems.
+| Action ID | Exact scope location | Priority | Required action | Owner | Target date | Status |
+|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |
 
-## Day 0-15: Establish Ownership
+## Governance and closure record
 
-- Assign executive sponsor
-- Assign technical lead
-- Assign mission owner
-- Assign vendor owner
-- Define assessment scope
-- Confirm priority systems
+For each Action ID, record:
 
-## Day 16-30: Map Communications Links
+- Finding and consequence
+- Accountable executive
+- Dependencies and resources
+- Evidence required for closure
+- Expected exposure reduction
+- Decision gate
+- Exception or accepted limitation
+- Closure verifier and approver
+- Closure date and reassessment trigger
 
-- Identify uplinks
-- Identify downlinks
-- Identify TT&C paths
-- Identify ground-station links
-- Identify cloud and vendor dependencies
-- Identify software and firmware update paths
+## Suggested sequence
 
-## Day 31-45: Build Cryptographic Inventory
-
-- Identify algorithms
-- Identify key exchange methods
-- Identify certificate dependencies
-- Identify authentication mechanisms
-- Identify secure boot and signing methods
-- Identify key-management systems
-
-## Day 46-60: Score Quantum Exposure
-
-- Score RSA and ECC exposure
-- Identify harvest-now, decrypt-later risk
-- Score mission data sensitivity
-- Score patchability
-- Score vendor dependence
-- Identify command-authentication risks
-
-## Day 61-75: Define Migration Path
-
-- Identify PQC candidates
-- Evaluate hybrid migration options
-- Identify systems needing crypto-agility
-- Determine vendor upgrade requirements
-- Identify QKD or QRNG feasibility candidates
-
-## Day 76-90: Deliver Executive Decision Package
-
-- Summarize risk
-- Confirm owners
-- Present 90-day findings
-- Recommend next investment
-- Define one-year roadmap
-- Identify decision gates
+- Days 0 to 15: scope, inventory, owners, and urgent evidence
+- Days 16 to 30: critical paths, long-lived data, and vendor dependencies
+- Days 31 to 60: migration options, testing, recovery, and procurement requirements
+- Days 61 to 90: governed decisions, funded roadmap, and reassessment schedule

@@ -1,11 +1,21 @@
 cff-version: 1.2.0
-title: "Quantum-Safe Space Communications"
-message: "If you use this repository, please cite it using the metadata from this file."
+message: "If you use this framework, cite the tagged release."
+title: "Quantum Readiness for Space Communications"
+version: "0.2.0"
+date-released: "2026-08-05"
 type: software
-version: 0.1.5
+abstract: >-
+  Documentation-first, publicly distributable assessment and migration-planning framework
+  for post-quantum cryptography across spacecraft, satellite links, ground
+  systems, mission operations, and supporting vendors.
 authors:
   - name: "Bridge Node 7"
-date-released: "2026-06-19"
+repository-code: "https://github.com/Bridge-Node-7/quantum-readiness-space-communications"
+url: "https://github.com/Bridge-Node-7/quantum-readiness-space-communications"
 license: MIT
-url: "https://github.com/Bridge-Node-7/quantum-safe-space-communications"
-abstract: "Public-safe assessment and migration-planning templates for post-quantum cryptography readiness in space communications."
+keywords:
+  - post-quantum cryptography
+  - space communications
+  - crypto-agility
+  - migration readiness
+  - mission assurance

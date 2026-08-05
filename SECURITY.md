@@ -1,76 +1,32 @@
 # Security Policy
 
-## Purpose
+## Reporting a vulnerability
 
-Quantum-Safe Space Communications is a public framework for assessment, governance, and migration planning. It is not a repository for exploit code, operational targeting, proprietary system details, or sensitive customer data.
+Use GitHub Private Vulnerability Reporting for this repository:
 
-## Reporting Security Issues
+1. Open the repository **Security** tab.
+2. Select **Report a vulnerability**.
+3. Provide the minimum information necessary to reproduce the issue safely.
 
-If you discover a security issue in repository content, examples, templates, or release packages, report it privately to the project maintainer.
+Do not open a public issue for a vulnerability, exposed credential, sensitive mission detail, or information that could enable targeting.
 
-Use GitHub private vulnerability reporting if enabled. Otherwise use the maintainer's private reporting channel.
 
-Do not open a public issue for:
+## If private reporting is temporarily unavailable
 
-- credentials
-- private keys
-- secret tokens
-- customer data
-- internal architecture details
-- exploit instructions
-- live target information
-- regulated or controlled technical data
-- sensitive vendor disclosures
+Do not disclose vulnerability details publicly. Open a public issue containing only a request for a private reporting channel, with no reproduction steps, affected paths, credentials, architecture details, or exploit information. A maintainer should establish a private channel before technical details are exchanged.
 
-## Scope
+## Appropriate public issues
 
-In scope:
+Public issues may be used for:
 
-- repository documentation errors that may create security risk
-- templates that accidentally request unsafe or unnecessary sensitive data
-- broken links to security references
-- incorrect or misleading cryptographic guidance
-- accidental exposure of secrets in examples
-- unsafe sample configurations
+- broken links;
+- incorrect standards status;
+- methodology ambiguity;
+- template defects;
+- accessibility and documentation improvements.
 
-Out of scope:
+Use fictional or sanitized examples. Do not include keys, tokens, credentials, real mission architecture, private vendor responses, customer information, or controlled technical data.
 
-- attacks against third-party organizations
-- vulnerability claims without actionable evidence
-- requests to test live satellite, aerospace, vendor, cloud, or customer systems
-- social engineering
-- credential harvesting
-- destructive testing
-- proprietary disclosure
+## Supported version
 
-## Safe Research Standard
-
-This project supports defensive assessment and migration planning only.
-
-Acceptable work includes:
-
-- inventory templates
-- risk scoring
-- vendor questions
-- governance models
-- migration planning
-- executive decision support
-- tabletop scenarios
-- hypothetical examples
-
-Unacceptable work includes:
-
-- unauthorized access
-- exploitation
-- credential theft
-- live targeting
-- bypass guidance
-- malware
-- persistence mechanisms
-- operational disruption
-
-## Data Handling Guidance
-
-Do not include real mission data, keys, certificates, hostnames, IP addresses, credentials, architecture diagrams, vendor documents, customer records, or sensitive operational details in public contributions.
-
-Use fictional examples unless explicit written permission exists to publish real information.
+Security and methodology-integrity corrections are supported for the latest public release.

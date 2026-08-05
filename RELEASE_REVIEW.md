@@ -1,76 +1,40 @@
-# Release Review: Quantum-Safe Space Communications
+# Release Review
 
-## Review Status
+- **Version:** 0.2.0
+- **Source candidate status:** VALIDATED
+- **Live release status:** PENDING PUBLIC READ-BACK SEAL
+- **Release date:** 2026-08-05
 
-**Decision:** Green for public release.
+## Gates completed in the source candidate
 
-**Review type:** Bridge Node 7 self-review.
-
-**Review date:** 2026-06-19.
-
-**Important limitation:** This is a self-assessment, not an independent audit, not a formal security authorization, and not an operational validation.
-
-## Release Scope
-
-This release is a public-safe assessment and migration-planning framework for post-quantum cryptography readiness in space communications.
-
-Included areas:
-
-- crypto inventory
-- readiness index
-- link risk matrix
-- vendor questionnaire
-- executive brief template
-- 90-day action plan
-- methodology
-- glossary
-- public references
-- PQC migration roadmap
-- fictional sample assessment
-
-## Public-Safety Review
-
-| Check | Result | Evidence |
-|---|---|---|
-| No exploit instructions | Pass | Repository content is assessment and planning oriented |
-| No live-system targeting | Pass | No operational testing instructions are included |
-| No credentials, keys, tokens, or certificates | Pass | Templates request inventory fields but no real secrets |
-| No customer, partner, or proprietary data | Pass | Examples are fictional and labeled |
-| No external endorsement claim | Pass | README and disclaimer do not claim endorsement |
-| No certification or operational validation claim | Pass | README and disclaimer explicitly limit the scope |
-
-## Claims Review
-
-| Claim Area | Decision |
+| Gate | Result |
 |---|---|
-| Public-safe assessment toolkit | Approved |
-| Quantum-safe migration planning | Approved |
-| Formal certification | Not claimed |
-| Operational maturity | Not claimed |
-| External endorsement | Not claimed |
-| QKD / QRNG as universal replacement for PQC | Not claimed |
-| Cryptographic implementation approval | Not claimed |
+| Documentation-first scope | PASS |
+| Weighted aggregate retired | PASS |
+| Unknown exposure state defined | PASS |
+| Exposure and readiness separately oriented | PASS |
+| Evidence confidence and coverage defined | PASS |
+| Twelve non-compensatory critical conditions | PASS |
+| Ten readiness domains | PASS |
+| Complete fictional Quantum Readiness Decision Pack | PASS |
+| Identity and compatibility controls | PASS |
+| Semantic validator and mutation tests | PASS |
+| Linux and Windows hosted-validation definitions | PASS |
+| Deterministic package recipe | PASS |
+| Manifest and checksums | PASS |
 
-## UX Review
+## Gates completed only by live execution
 
-| Area | Result |
-|---|---|
-| First action is clear | Pass |
-| Recommended flow is clear | Pass |
-| Fictional example included | Pass |
-| Public-safe boundaries are clear | Pass |
-| Module routing metadata exists | Pass |
-| Document endings complete | Pass |
-| Glossary order and spacing are clean | Pass |
-| Sample assessment uses current templates | Pass |
-| PQC roadmap ending is complete | Pass |
+- Exact hosted checks on the pull-request head
+- Explicit human merge authorization
+- Exact-head squash merge and tree-equivalence check
+- Repository rename and metadata read-back
+- Branch protection and Actions permission read-back
+- Vulnerability reporting, secret scanning, and push-protection read-back
+- Signed tag and public release
+- Public asset re-download and checksum verification
+- Former-name redirect verification
+- Logged-out public access verification
+- Final release seal and seal checksum
 
-## Final Decision
-
-**Green for public release.**
-
-Recommended repository:
-
-```text
-https://github.com/Bridge-Node-7/quantum-safe-space-communications
-```
+The source package must not call itself a completed public release before those live gates pass.
