@@ -6,7 +6,7 @@
 | Public visibility |  |
 | Repository description and homepage |  |
 | Topics |  |
-| Release | v0.2.2 |
+| Release | v0.2.3 |
 | Main commit |  |
 | Main tree |  |
 | Tag commit and verification |  |

@@ -1,26 +1,25 @@
-# Quantum Readiness for Space Communications v0.2.2
+# Quantum Readiness for Space Communications v0.2.3
 
-## Release Summary
+## Release summary
 
-Version 0.2.2 improves public onboarding and repository self-consistency without changing the assessment methodology.
+Version 0.2.3 is a documentation-only maintenance update over v0.2.2.
 
 It:
 
-- rewrites the README around practical use rather than release history;
-- provides audience-neutral navigation that works without prior context;
-- makes the fictional Decision Pack the recommended first example;
-- simplifies the repository scope statement;
-- aligns version, citation, release, review, package-prefix, manifest, and checksum records;
-- preserves all exposure, readiness, evidence, critical-condition, and Decision Pack semantics.
+- aligns security and contribution guidance with restricted public issue creation;
+- directs public-safe corrections to focused pull requests;
+- preserves GitHub Private Vulnerability Reporting for security matters;
+- reconciles current citation, review, notes, metadata, package, manifest, and checksum records; and
+- preserves the v0.2.2 assessment methodology without modification.
 
-## Methodology Impact
+## Methodology impact
 
 There is no methodology change. Quantum Exposure Severity, Migration Readiness Profile, Evidence Confidence and Coverage, Critical Risk Overrides, and the Quantum Readiness Decision Pack remain unchanged.
 
-## Public Scope
+## Public scope
 
-This release contains documentation, templates, a fictional example, and lightweight validation and packaging tools. It does not contain a cryptographic implementation, live-system connector, assessment engine, or workbook decision calculator.
+This release does not contain an assessment engine, automated disposition, cryptographic implementation, public JSON decision schema, or workbook decision calculator.
 
-## Claim Boundary
+## Claim boundary
 
 This release is not certification, compliance determination, operational authorization, flight qualification, product validation, or proof that a system is quantum-safe.

@@ -13,19 +13,13 @@ Do not open a public issue for a vulnerability, exposed credential, sensitive mi
 
 ## If private reporting is temporarily unavailable
 
-Do not disclose vulnerability details publicly. Open a public issue containing only a request for a private reporting channel, with no reproduction steps, affected paths, credentials, architecture details, or exploit information. A maintainer should establish a private channel before technical details are exchanged.
+Do not disclose vulnerability details publicly. Use the organizational security contact identified by the repository or wait for GitHub Private Vulnerability Reporting to become available before exchanging technical details.
 
-## Appropriate public issues
+## Public-safe corrections
 
-Public issues may be used for:
+Public issue creation is intentionally restricted. Broken links, standards-status corrections, methodology ambiguity, template defects, accessibility improvements, and documentation corrections should be submitted through a focused pull request using fictional or sanitized examples.
 
-- broken links;
-- incorrect standards status;
-- methodology ambiguity;
-- template defects;
-- accessibility and documentation improvements.
-
-Use fictional or sanitized examples. Do not include keys, tokens, credentials, real mission architecture, private vendor responses, customer information, or controlled technical data.
+Do not include keys, tokens, credentials, real mission architecture, private vendor responses, customer information, controlled technical data, or vulnerability details.
 
 ## Supported version
 
