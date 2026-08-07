@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.3 - 2026-08-07
+
+- Aligned security and public contribution guidance with restricted issue creation.
+- Directed public-safe corrections to focused pull requests while preserving private vulnerability reporting.
+- Reconciled current citation, review, notes, release metadata, package prefix, manifest, and SHA-256 records.
+- Preserved the v0.2.2 assessment methodology without modification.
+
 ## 0.2.2 - 2026-08-05
 
 - Rewrote the README around practical use and removed release-history content from the repository landing page.
