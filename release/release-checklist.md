@@ -14,6 +14,7 @@ Use this checklist to preserve public release integrity.
 ## Publication
 
 - [ ] Version and release metadata agree.
+- [ ] `CHANGELOG.md` carries release history; do not add version-per-release narrative files to `main`.
 - [ ] Hosted validation passes on the reviewed source.
 - [ ] The published tag corresponds to the reviewed release source.
 - [ ] Public assets and checksums verify after publication.
