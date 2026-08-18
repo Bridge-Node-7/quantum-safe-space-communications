@@ -1,35 +1,24 @@
-# Release Review
+# Release Validation
 
-- **Version:** 0.2.3
-- **Source candidate status:** VALIDATED ONLY BY EXACT PR-HEAD CHECKS
-- **Live release status:** AUTHORITATIVE ONLY WHEN THE SIGNED TAG AND FINAL SEAL EXIST
-- **Release date:** 2026-08-07
+**Version:** 0.2.3
 
-## Scope
+This release preserves the documentation-first Quantum Readiness framework and its public claim boundaries.
 
-- align security and public contribution guidance with restricted issue creation
-- reconcile citation, release review, release notes, metadata, package prefix, manifest, and SHA-256 records
-- preserve the v0.2.2 assessment methodology without modification
+## Repository validation
 
-## Gates required in the source candidate
+Release validation covers:
 
-| Gate | Result |
-|---|---|
-| Documentation-first scope preserved | REQUIRED |
-| No methodology change | REQUIRED |
-| Semantic validator and mutation tests | REQUIRED |
-| Linux and Windows validation | REQUIRED |
-| Deterministic package recipe | REQUIRED |
-| Manifest and checksums regenerated | REQUIRED |
+- semantic repository checks;
+- public-boundary scanning;
+- positive and mutation tests;
+- manifest and checksum verification;
+- deterministic source-package reproduction;
+- hosted validation on supported environments.
 
-## Gates completed only by live execution
+## Preserved methodology
 
-- exact hosted checks on the pull-request head
-- explicit human merge authorization
-- exact-head merge and tree-equivalence check
-- signed `v0.2.3` tag and public release
-- public asset re-download and checksum verification
-- logged-out public access verification
-- final release seal and seal checksum
+The release preserves the assessment workflow, Quantum Exposure Severity, Migration Readiness Profile, Evidence Confidence and Coverage, Critical Risk Overrides, and human-reviewed Quantum Readiness Decision Pack.
 
-The source package must not call itself a completed public release before those live gates pass.
+## Limitations
+
+Repository validation establishes integrity of the public framework within the tested controls. It does not independently validate external evidence, certify a system, determine compliance, approve deployment, or establish operational fitness.

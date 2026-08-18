@@ -1,22 +1,13 @@
-# Release Strategy Decision
+# Release Strategy
 
-## Decision
+Quantum Readiness for Space Communications is maintained as a documentation-first public framework. The current public source line is **0.2.3**.
 
-Proceed directly from the historical v0.1.5 release to the corrected documentation-first v0.2.0 release.
+## Historical transition
 
-## Superseded interim plan
+The published `v0.1.5` history remains preserved. An interim `v0.1.6` containment plan was superseded when the corrected documentation-first `v0.2.0` source was ready for publication.
 
-The earlier v0.1.6 containment plan is superseded only because the complete corrected v0.2.0 source and staged release controls are being prepared for immediate execution. If execution is materially delayed or the reviewed baseline changes, the containment plan must be reconsidered.
+## Current discipline
 
-## Rationale
+Published versions preserve explicit release identity, methodology boundaries, source traceability, deterministic packaging, reproducible validation, and known limitations.
 
-- The full-engine candidate was withdrawn after adversarial testing identified false-favorable paths.
-- The documentation-first v0.2.0 retires the defective public methods without publishing the unsafe engine.
-- One controlled pull request preserves history while minimizing public exposure to the known defect.
-
-## Conditions
-
-- Preserve v0.1.5 tag and assets.
-- Append, do not replace, the supersession notice.
-- Merge only the exact hosted-validated head.
-- Complete public read-back and final seal before declaring PASS.
+A release does not certify a system, approve deployment, or establish operational readiness.
