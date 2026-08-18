@@ -29,4 +29,4 @@ This framework does not provide certification or operational authorization.
 
 ## Publicly distributable
 
-Content is publicly distributable only after privacy, security, export-control, contractual, intellectual-property, and mission-sensitivity review confirms that unrestricted publication is authorized. This label is not a security classification or legal determination.
+Publish only material approved for unrestricted distribution. The framework's labels do not replace applicable review, authorization, or information-handling requirements.

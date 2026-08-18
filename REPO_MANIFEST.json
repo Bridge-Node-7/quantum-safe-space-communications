@@ -5,7 +5,7 @@
   "version": "0.2.3",
   "release_date": "2026-08-07",
   "methodology_scope": "documentation-first; no automated assessment engine or workbook decision calculator",
-  "controlled_file_count": 102,
+  "controlled_file_count": 94,
   "integrity_note": "REPO_MANIFEST.json and SHA256SUMS are excluded from controlled files. SHA256SUMS includes REPO_MANIFEST.json but excludes itself.",
   "files": [
     {
@@ -110,8 +110,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8305,
-      "sha256": "d7eb47bd321c36a06c5f9829ac25dc8d1aa2927dee5fccab2e8b69a38c6b45eb"
+      "bytes": 8094,
+      "sha256": "03e76fe94118f838f09702e14a2a8d302f8d6744c6bc5d2dd18690c09433d203"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -125,8 +125,8 @@
     },
     {
       "path": "SECURITY.md",
-      "bytes": 1286,
-      "sha256": "19ad0cee70b76914bd59de2bd9adbf293c1759b5b1dedf80b7f06321f2636e7b"
+      "bytes": 570,
+      "sha256": "1557789c24065c5129fa7b3f6b27f3b0b2ce500b520f52edf015a2cf5677d5af"
     },
     {
       "path": "STATUS.md",
@@ -280,8 +280,8 @@
     },
     {
       "path": "docs/public-claim-boundaries.md",
-      "bytes": 1219,
-      "sha256": "21732284c3e6a2bd30531ace4db26611d2729e7200b7e25c44a165013f0be40c"
+      "bytes": 1122,
+      "sha256": "380c1093228daeeaaa3a39bca7bf917d8c7086b71fe54aec2f6d5eaa9ec1d805"
     },
     {
       "path": "docs/quantum-cryptography-foundations.md",
@@ -375,8 +375,8 @@
     },
     {
       "path": "release/changed-files-allowlist.txt",
-      "bytes": 3519,
-      "sha256": "da8e4f7ee39bba9c07470d52eedb41daf45d2f80532ff7c1934e29f0fb00bc3e"
+      "bytes": 3251,
+      "sha256": "1f014477a097389eb4f179360a81a4be6912de7a8363fbe858b5505b07f499a5"
     },
     {
       "path": "release/external-link-exceptions.json",
@@ -384,24 +384,9 @@
       "sha256": "48e93aada49c5f21e5c6bfb7f1daf222837c1e8f649e8295e077717cd90035a5"
     },
     {
-      "path": "release/final-seal-template.md",
-      "bytes": 439,
-      "sha256": "38d92b58247d936c1b7a55af192be5564973b30c42b9a5b95f13ce828ad0ee05"
-    },
-    {
-      "path": "release/github-settings-checklist.md",
-      "bytes": 639,
-      "sha256": "cfc4c191adb75cc69dc736be5feeeebbce24dec8a958410bc41d709ffc1461b4"
-    },
-    {
-      "path": "release/merge-authorization-template.md",
-      "bytes": 282,
-      "sha256": "9267992f582d518ecf1c20f45c9844707bcc54069023f874974cb86eebe0508b"
-    },
-    {
       "path": "release/release-checklist.md",
-      "bytes": 809,
-      "sha256": "4bcb949c189fdfed3771d559ffc0737e238b49ae3c8a7d8fd5e42dee938b3a3e"
+      "bytes": 913,
+      "sha256": "514af384777dc2c698a23696aa49d2e1cfaea3c9a87cc578f5d9896d646760b7"
     },
     {
       "path": "release/release-metadata.json",
@@ -417,31 +402,6 @@
       "path": "release/repository-metadata.json",
       "bytes": 630,
       "sha256": "5b6183e95f693f3330737c9f692c4c5282b3406445794ed5aa2c419ea3f60457"
-    },
-    {
-      "path": "release/v0.1.5-supersession-note.md",
-      "bytes": 442,
-      "sha256": "c1bedc2caa27d0df2477884f2927d8baca2157f7bb55d5dd62788606a27eed5d"
-    },
-    {
-      "path": "release/v0.2.0-release-body.md",
-      "bytes": 773,
-      "sha256": "292f9577d4a3fd57ab6bf7485ba220f04fbf23c81f851668c4a33c0ce2a306cf"
-    },
-    {
-      "path": "release/v0.2.1-release-body.md",
-      "bytes": 688,
-      "sha256": "352cb8e05a632c7f9c6f15c646d5ca52f074befeef4c377962da44395249a33d"
-    },
-    {
-      "path": "release/v0.2.2-release-body.md",
-      "bytes": 932,
-      "sha256": "c07e3b4a556f1a87f47de1914b700c7da5c7ef8f508e75abdf96199a4a2fea2d"
-    },
-    {
-      "path": "release/v0.2.3-release-body.md",
-      "bytes": 426,
-      "sha256": "20b68077a3f9e746a31446a07a5c3e79c52cf2c42c92b78d174643b1a778813b"
     },
     {
       "path": "requirements-validation.txt",
@@ -515,8 +475,8 @@
     },
     {
       "path": "tools/validate_repo.py",
-      "bytes": 26269,
-      "sha256": "c8b9e93bcd0bbeb49f0e84f9af7a006c8418f680259d33a1ecbc9c8e44eac5de"
+      "bytes": 26230,
+      "sha256": "16d2f58ded1cfa5ef54caad948f9a09f83c929aac8e20f340abdf96b8d3f0690"
     }
   ]
 }

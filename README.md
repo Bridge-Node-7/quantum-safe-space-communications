@@ -128,9 +128,9 @@ The validators check repository integrity and methodology boundaries. They do no
 
 ## Publicly Distributable Use
 
-Use fictional or explicitly authorized information only. Do not publish credentials, keys, tokens, controlled technical data, real mission architecture, sensitive hostnames, private vendor responses, customer information, or security weaknesses that could enable targeting.
+Use only information approved for unrestricted publication. Keep scope, evidence, limitations, and decision authority explicit.
 
-Before publishing any completed artifact, apply the required privacy, security, export-control, contractual, intellectual-property, and mission-sensitivity review for your environment.
+Before publishing a completed artifact, apply the review and authorization requirements appropriate to the environment.
 
 ## Limits and Responsible Use
 

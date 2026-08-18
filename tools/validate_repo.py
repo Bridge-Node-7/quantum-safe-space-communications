@@ -21,7 +21,7 @@ OLD_ALLOWED = {
     "CHANGELOG.md", "METHODOLOGY_CHANGELOG.md", "ERRATA_v0.1.5.md",
     "docs/compatibility-and-supersession.md", "assessment/readiness-index.md",
     "assessment/space-link-risk-matrix.md", "assessment/quantum-safe-space-communications-assessment.md",
-    "release/v0.1.5-supersession-note.md", "release/release-strategy-decision.md",
+    "release/release-strategy-decision.md",
     "release/changed-files-allowlist.txt", "tools/validate_repo.py", "tests/test_validator_mutations.py",
     "REPO_MANIFEST.json",
 }
