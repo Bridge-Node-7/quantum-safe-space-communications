@@ -1,20 +1,13 @@
-# Owner-Only GitHub Settings Checklist
+# Repository Security Settings
 
-Capture evidence privately.
+Public repository settings should support safe, reproducible maintenance.
 
-- Default branch: `main`
-- Pull request required before merge
-- Required hosted checks: `release-integrity` and `windows-validation`
-- Strict status checks enabled
-- Conversation resolution required
-- Force pushes disabled
-- Branch deletion disabled
-- Linear history enabled
-- CODEOWNERS active
-- Default workflow token permission is read-only
-- Private vulnerability reporting enabled
-- Dependabot alerts enabled
-- Dependabot security updates enabled where supported
-- Secret scanning and push protection enabled where supported
-- Repository description and topics match release metadata
-- `v0.2.0` tag and release point to the exact merged commit
+- Default branch is `main`.
+- Force pushes and branch deletion on `main` are disabled.
+- Hosted validation required by the repository is enabled.
+- Workflow permissions remain minimally privileged.
+- Private vulnerability reporting is enabled when supported.
+- Dependabot and secret-scanning protections are enabled when supported.
+- Repository description, homepage, and topics remain aligned with the public project.
+
+Settings support repository integrity. They do not establish system certification or operational authorization.

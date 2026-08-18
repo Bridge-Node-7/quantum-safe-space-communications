@@ -85,8 +85,8 @@
     },
     {
       "path": "GOVERNANCE.md",
-      "bytes": 1534,
-      "sha256": "9ed5b8064c936f314a9bcd2dbed82dd961b53add6a4c5ac6515549f685de15f5"
+      "bytes": 988,
+      "sha256": "3f936ada9374a2b2acc8e46b127da8e3dc94cbecf2b5a823fe3600ad3ce40b91"
     },
     {
       "path": "KNOWN_LIMITATIONS.md",
@@ -100,8 +100,8 @@
     },
     {
       "path": "MAINTAINERS.md",
-      "bytes": 452,
-      "sha256": "621437d3fc20d7375c7af38df1a7d9c8c5acc925f3d8e1326d82ea29bbf1bc38"
+      "bytes": 307,
+      "sha256": "9672f2a14fc319dae87fac0b4e53a50a5bd33e7929b79dc9c1d4f7710b0b9a50"
     },
     {
       "path": "METHODOLOGY_CHANGELOG.md",
@@ -110,8 +110,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8319,
-      "sha256": "8d99d80918011f811aef43445096bd85cfa9f705cc7a05c022c00524facc8d3b"
+      "bytes": 8305,
+      "sha256": "d7eb47bd321c36a06c5f9829ac25dc8d1aa2927dee5fccab2e8b69a38c6b45eb"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -120,8 +120,8 @@
     },
     {
       "path": "RELEASE_REVIEW.md",
-      "bytes": 1290,
-      "sha256": "081df4c24ecfa8cc83fbaa079d1a01404a12d4215989919286698b282900a624"
+      "bytes": 926,
+      "sha256": "4e159635c32dde2d56209f9b8c8ac13dbdd1530ef68fa1fcc5446b866b44cdb9"
     },
     {
       "path": "SECURITY.md",
@@ -385,23 +385,23 @@
     },
     {
       "path": "release/final-seal-template.md",
-      "bytes": 959,
-      "sha256": "64f71ce5092ad763316ac7b69b6fd2539a13f35056b0151ce5369008b5f6a606"
+      "bytes": 439,
+      "sha256": "38d92b58247d936c1b7a55af192be5564973b30c42b9a5b95f13ce828ad0ee05"
     },
     {
       "path": "release/github-settings-checklist.md",
-      "bytes": 718,
-      "sha256": "5bf77f5afecb987a7151f803198cb788be42c84b1b66fb7e41fabee0c72eb2f5"
+      "bytes": 639,
+      "sha256": "cfc4c191adb75cc69dc736be5feeeebbce24dec8a958410bc41d709ffc1461b4"
     },
     {
       "path": "release/merge-authorization-template.md",
-      "bytes": 348,
-      "sha256": "c9750f309c71ead21bbc36842bd064bc6baf2aee6a3394251b246fadbb2cb4a7"
+      "bytes": 282,
+      "sha256": "9267992f582d518ecf1c20f45c9844707bcc54069023f874974cb86eebe0508b"
     },
     {
       "path": "release/release-checklist.md",
-      "bytes": 1382,
-      "sha256": "2892656104044946ed42c32445b2c709f8dcf4a9db2c07422e70502370abcab0"
+      "bytes": 809,
+      "sha256": "4bcb949c189fdfed3771d559ffc0737e238b49ae3c8a7d8fd5e42dee938b3a3e"
     },
     {
       "path": "release/release-metadata.json",
@@ -410,8 +410,8 @@
     },
     {
       "path": "release/release-strategy-decision.md",
-      "bytes": 1000,
-      "sha256": "d081163babb4ba3e995c97348e613b8771bd4ab07277e810608dac3116bf388a"
+      "bytes": 667,
+      "sha256": "22ce6299778f3ff14210e09b3b4b1d96ce8f622bf3ec5af1f5eb32553d2af676"
     },
     {
       "path": "release/repository-metadata.json",

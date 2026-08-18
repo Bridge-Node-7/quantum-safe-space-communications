@@ -1,13 +1,9 @@
-# Merge Authorization Record
+# Release Review Record
 
-- Repository:
-- Pull request:
-- Exact validated head SHA:
-- Hosted workflow run:
-- Authorizing person:
-- Authorization timestamp:
-- Scope reviewed:
-- Known limitations accepted:
-- Authorization: APPROVE or REJECT
+- Release:
+- Reviewed source:
+- Hosted validation:
+- Material limitations reviewed:
+- Disposition:
 
-This record supports the human authorization checkpoint. It is not an independent technical validation.
+This optional record documents human review of a public release. It is not an independent technical validation, certification, or operational authorization.

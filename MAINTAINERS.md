@@ -1,11 +1,7 @@
-# Maintainers
+# Maintenance
 
-| Function | Accountable maintainer |
-|---|---|
-| Method owner | Bridge Node 7 repository owner |
-| Technical maintainer | Bridge Node 7 repository owner |
-| Standards reviewer | Bridge Node 7 internal standards-review function |
-| Security owner | Bridge Node 7 repository security owner |
-| Release approver | Bridge Node 7 repository owner |
+Bridge Node 7 maintains this repository.
 
-GitHub Private Vulnerability Reporting is the reporting channel, not the accountable role.
+Public contributions should follow [`CONTRIBUTING.md`](CONTRIBUTING.md). Security reports should follow [`SECURITY.md`](SECURITY.md).
+
+Repository maintenance does not constitute independent validation of the framework or of any completed assessment.

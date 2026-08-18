@@ -98,7 +98,7 @@ Use the [Role-Based Reading Paths](docs/role-based-reading-paths.md) for a short
 | `docs/` | Methodology, evidence, standards, technical context, limitations, and reading paths |
 | `examples/` | Complete fictional worked example |
 | `frameworks/` | Migration and recovery roadmap |
-| `release/` | Release metadata, integrity checklists, and seal templates |
+| `release/` | Release metadata and reproducibility records |
 | `tests/` | Positive and adversarial methodology tests |
 | `tools/` | Repository, link, public-boundary, manifest, and packaging validators |
 
